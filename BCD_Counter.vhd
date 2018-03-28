@@ -13,7 +13,7 @@ entity BCD_Counter is
 end BCD_Counter;
 
 architecture STRUCT of BCD_Counter is 
-signal S0,S1,S2,S3 : std_logic;
+signal S0,S1,S2,S3,S : std_logic;
 signal EN_F : std_logic;
 
 begin 
@@ -22,6 +22,7 @@ begin
 	U3 : D_FlipFlop port map(S2,EN_F,S1,Q(2),S2);				--Q2
 	U4 : D_FlipFlop port map(S3,EN_F,S2,Q(3),S3);				--Q3
 
-	C <= (not Q(3)) or Q(2) or (not Q(1)) or Q(0); 
-	EN_F <= C and EN;
+	C <= Q(3) or Q(2) or Q(1) or Q(0); 
+	S <= (not Q(3)) or Q(2) or (not Q(1)) or Q(0);
+	EN_F <= S and EN;
 end STRUCT;
