@@ -1,4 +1,4 @@
---VHDL code for D_FlipFlop created by Gaurav Ganna as part of Project Pehredar
+--VHDL code for D_FlipFlop created by Gaurav Ganna as part of Project PEHREDAR.
 --Date 28/03/2018
 
 library ieee;							-- Library Declaration
@@ -21,7 +21,7 @@ architecture BEHAVE of D_FlipFlop is
 			begin
 				if (RST = '0') then		--The DFF will start working once it recieves RST as '0'
 					Q <= '0';
-				elsif (RISING_EDGE(CLK)) then		--If Rising Edge is discovered then DFF equates Q to D 
+				elsif (RISING_EDGE(CLK)) then		--If there is a Rising Edge than DFF equates Q to D 
 					Q <= D;
 				end if;
 
