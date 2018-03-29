@@ -13,8 +13,7 @@ entity BCD_Counter is				-- Entity Declaration
 end BCD_Counter;
 
 architecture STRUCT of BCD_Counter is 		
-signal S0,S1,S2,S3 : std_logic;								-- signal for QN in D_FlipFlop
-signal S : std_logic;											-- signal which will store the output of combinational logic for overflow
+signal S0,S1,S2,S3 : std_logic;								-- signals to store the QN obtained from D_FlipFlop
 signal EN_F : std_logic;										-- signal for final Enable which is and of EN and S
 
 begin 
@@ -22,8 +21,7 @@ begin
 	U2 : D_FlipFlop port map(S1,EN_F,S0,Q(1),S1);				--Q1
 	U3 : D_FlipFlop port map(S2,EN_F,S1,Q(2),S2);				--Q2
 	U4 : D_FlipFlop port map(S3,EN_F,S2,Q(3),S3);				--Q3
-
-	C <= Q(3) or Q(2) or Q(1) or Q(0); 						-- Combinational Logic for Carry
-	S <= (not Q(3)) or Q(2) or (not Q(1)) or Q(0);		-- Combinational Logic for Overflow
-	EN_F <= S and EN;												-- Final Output
+	
+	C <= (not Q(3)) or Q(2) or (not Q(1)) or Q(0);		-- Combinational Logic for Carry
+	EN_F <= C and EN;												-- Final Output
 end STRUCT;

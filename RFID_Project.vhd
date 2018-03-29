@@ -31,4 +31,21 @@ package RFID_Project is				-- Package description
 			S   : inout std_logic_vector (1 downto 0));		-- Output
 	
 	end component;
+	
+	component MUX_2X1 is								-- Entity declaration
+		port(	I0, I1, S0 : in std_logic;		-- Inputs of the multiplexer
+				O0 : out std_logic);				-- Output of the multiplexer
+	end component;
+	
+	component MUX_4X1 is									-- Entity declaration
+		port(	I0, I1, I2, I3 : in std_logic;	-- Inputs of the multiplexer
+				S : in std_logic_vector(1 downto 0);
+				O0 : out std_logic);					-- Output of the multiplexer
+	end component;
+
+	component MUX_16X4 is														-- Entity declaration
+		port(	I0, I1, I2, I3 : in std_logic_vector(3 downto 0);	-- Inputs of the multiplexer
+				S : in std_logic_vector(1 downto 0);
+				O0 : out std_logic_vector(3 downto 0));				-- Output of the multiplexer
+	end component;
 end RFID_Project;
