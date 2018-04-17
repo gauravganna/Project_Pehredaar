@@ -1,27 +1,142 @@
---VHDL code for D_FlipFlop created by Gaurav Ganna as part of Project PEHREDAR.
---Date 28/03/2018
-library ieee;							-- Library Declaration
-use ieee.std_logic_1164.all;		-- Use std_logic_1164 package from ieee library
-use work.RFID_Project.all;			-- Include the package created as part of Project
+--VHDL Code created by Gaurav Ganna as part of Project Pehredar.
+--Date completed := 16/04/2018
 
-entity BCD_Counter is				-- Entity Declaration
-	port (
-		CLK : in std_logic;										-- Main clock
-		EN  : in std_logic;										-- Active Low Enable
-		Q   : buffer std_logic_vector (3 downto 0);		-- Output Vector (BCD Number)
-		C   : inout std_logic);									-- Active Low Carry Indicator
+--Include the Required Libraries.
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.std_logic_unsigned.all;
+
+--Entity Declaration
+entity BCD_Counter is								
+	port(
+		CLK  		: in std_logic;									-- Main clock	
+		OP    	: out std_logic_vector (3 downto 0);		-- 4 digit BCD Number
+		SEL  		: inout std_logic_vector (3 downto 0);		-- Select Line to select the Digit on Seven Segment Display.
+		OVERFLOW : out std_logic;									-- Overflow Indicator(On reaching 9999).
+		DP  		: out std_logic );								-- Active Low Decimal Point.
+		
 end BCD_Counter;
 
-architecture STRUCT of BCD_Counter is 		
-signal S0,S1,S2,S3 : std_logic;								-- signals to store the QN obtained from D_FlipFlop
-signal EN_F : std_logic;										-- signal for final Enable which is and of EN and S
+--Functionality of BCD_Counter 
+architecture FUNCT of BCD_Counter is
 
-begin 
-	U1 : D_FlipFlop port map(S0,EN_F,CLK,Q(0),S0);				--Q0
-	U2 : D_FlipFlop port map(S1,EN_F,S0,Q(1),S1);				--Q1
-	U3 : D_FlipFlop port map(S2,EN_F,S1,Q(2),S2);				--Q2
-	U4 : D_FlipFlop port map(S3,EN_F,S2,Q(3),S3);				--Q3
+	signal cnt  		: integer range 0 to 9999 ;											-- Keeps a count of number of times CLK_NEW Edge passed.
+	signal O 			: std_logic_vector (15 downto 0) ;									-- Signal which stores the previous count.
+	signal C 			: std_logic_vector (3 downto 0) := "0000";						-- Active High Carry Indicator of all four Digits. 
+	signal CLK_NEW    : std_logic := '1';														-- Clock with frequency/4 of Original clock. It will be used to show multiplexed output.
+	signal CNT_CLK    : integer range 0 to 1 ; 												-- Counter assisting in creating CLK_NEW.
+	type STATE_TYPE is (S0,S1,S2,S3);															-- States help to select decide SEL
+	signal Q, QPLUS   : STATE_TYPE;																-- Q -> Present State   QPLUS -> Next State 
+
+begin
+	DP <= '1';																							-- Decimal Point. Will Disable Decimal Point
 	
-	C <= (not Q(3)) or Q(2) or (not Q(1)) or Q(0);		-- Combinational Logic for Carry 
-	EN_F <= C and EN;												-- Final Output
-end STRUCT;
+	-- Carry Indicators
+	C(3) <= O(15) and (not O(14)) and (not O(13)) and O(12);								-- Indicator of Most Significant Digit.
+	C(2) <= O(11) and (not O(10)) and (not O(9)) and O(8);							
+	C(1) <= O(7) and (not O(6)) and (not O(5)) and O(4);
+	C(0) <= O(3) and (not O(2)) and (not O(1)) and O(0);									-- Indicator of Least Significant Digit.
+	
+	--Start of process 1
+	--Synchronous BCD UP Counter Upto a predefined Value.
+	--This process increments the O by 1 on each clock(CLK_NEW) edge untill the O reaches Old Entry + New Additions.
+	process(CLK_NEW)
+	begin
+		
+		--Start of First If Statement
+		if(RISING_EDGE(CLK_NEW) and cnt <= 5) then
+			cnt <= cnt + 1;
+			
+			--Start of Second If Statement.
+			--Used to initialise the values of O and OVERFLOW.
+			if(cnt = 0) then
+				O <= "0000000000000101";
+				OVERFLOW <= C(3) and C(2) and C(1) and C(0);
+			
+			--BCD Counter Behavioural Code	
+			elsif(C(3) = '1' and C(2) = '1' and C(1) = '1' and C(0) = '1') then	-- O -> 9999 and OVERFLOW Condition
+				OVERFLOW <= '1';
+				O <= "0000000000000000";
+					
+			elsif( C(2) = '1' and C(1) = '1' and C(0) = '1' ) then		-- O -> X999
+				O(15 downto 12) <= O(15 downto 12) + "0001";
+				O(11 downto 0) <= "000000000000";
+				OVERFLOW <= '0';
+				
+			elsif( C(1) = '1' and C(0) = '1' ) then							-- O -> XX99
+				O(11 downto 8) <= O(11 downto 8) + "0001";
+				O(7 downto 0) <= "00000000";
+				OVERFLOW <= '0';
+				
+			elsif( C(0) = '1' ) then												-- O -> XXX9
+				O(7 downto 4) <= O(7 downto 4) + "0001";
+				O(3 downto 0) <= "0000";
+				OVERFLOW <= '0';
+				
+			else
+				O(3 downto 0) <= O(3 downto 0) + "0001";						-- O -> XXXX
+				OVERFLOW <= '0';
+				
+			end if;
+			--End of Second If Statement.
+			
+		end if;
+		--End of First If Statement.
+	end process;
+	--End of process 1
+	
+	--Start of process 2.
+	--Synchronous Clock Divider.
+	--This process creates a Divide by 4 Clock(CLK_NEW) as well serves as a clock to Synchronous Moore Machine. 
+	process(CLK)
+	begin
+		--Start of First If Statement.
+		if(RISING_EDGE(CLK)) then
+			Q <= QPLUS;													-- Give Next State Value to Current State.
+			
+			--Start of Second If Statement.
+			--Clock Divison
+			if(CNT_CLK = 1) then
+				CLK_NEW <= not CLK_NEW ;
+				CNT_CLK <= 0;
+				
+			else
+				CNT_CLK <= CNT_CLK + 1;
+				
+			end if;
+			--End of First If Statement.
+			
+		end if;
+		--End of Second If Statement.
+	end process;
+	--End of process 2
+		
+	--Start of process 3.
+	--This process helps us to show all four digits on SSD.
+	process(Q)
+	begin
+		
+		case Q is
+			when S0 =>
+				SEL <= "0111";
+				OP <= O(15 downto 12);
+				QPLUS <= S1;
+			when S1 =>
+				SEL <= "1011";
+				OP <= O(11 downto 8);
+				QPLUS <= S2;
+			when S2 =>
+				SEL <= "1101";
+				OP <= O(7 downto 4);
+				QPLUS <= S3;
+			when S3 =>
+				SEL <= "1110";
+				OP <= O(3 downto 0);
+				QPLUS <= S0;
+		end case;
+		
+	end process;
+	--End of process 3.
+	
+end FUNCT;
+--End of Functionality of BCD_Counter

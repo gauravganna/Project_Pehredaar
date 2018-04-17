@@ -1,0 +1,40 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/dell/RFID_AttendanceSystem/simulation/modelsim
+Elcd_display
+Z1 w1523968738
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 d/home/dell/RFID_AttendanceSystem/simulation/modelsim
+Z5 8/home/dell/RFID_AttendanceSystem/LCD_Display.vhd
+Z6 F/home/dell/RFID_AttendanceSystem/LCD_Display.vhd
+l0
+L7
+V=VHX<[WToB:eBV2aJ15gg2
+!s100 _<;EWNNgEQhaZZf4GTJ>e3
+Z7 OV;C;10.1d;51
+31
+!i10b 1
+Z8 !s108 1523968795.059246
+Z9 !s90 -reportprogress|300|-93|-work|work|/home/dell/RFID_AttendanceSystem/LCD_Display.vhd|
+Z10 !s107 /home/dell/RFID_AttendanceSystem/LCD_Display.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+Afunctionality
+R2
+R3
+DEx4 work 11 lcd_display 0 22 =VHX<[WToB:eBV2aJ15gg2
+l35
+L15
+VkfKzgWEdR4i[MVdKUf?>R2
+!s100 fGSWGRag]5z4g<X=kgig_3
+R7
+31
+!i10b 1
+R8
+R9
+R10
+R11
+R12
