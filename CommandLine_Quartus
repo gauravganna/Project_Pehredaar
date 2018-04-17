@@ -1,0 +1,26 @@
+##compile file
+quartus_sh --flow compile <filename>				--working
+
+##Programmer tool in the UI
+quartus_cpf -c <input_cdf_file> <output file type (jam | jbc | svf | isc)>
+
+# To create an SVF for programming
+quartus_cpf -c -n p <input_pof_file> <output_svf_file>
+
+# To create an SVF for programming with a 3.3V supply
+quartus_cpf -c -g 3.3 -n p <input_pof_file> <output_svf_file>
+
+svf
+To generate a Serial Vector Format File (.svf), you mu
+st use three arguments: "-q" ("--frequency") to specify 
+the JTAG TCK clock frequency, "-g" ("--voltage") to specify the VCC level, and "-n" ("--operation") to specify 
+the programming operation.
+Make sure to specify the units for frequency and voltage.
+Use a Chain Description File (.cdf) to generate the .svf for a multi-device chain.
+Examples
+# To use 4.5 MHz TCK, 3.3V supply, and programming option  							--working
+quartus_cpf -c -q 4.5MHz -g 3.3 -n p <input_pof_file> <output_svf_file>
+# To use 10 MHz TCK, 3.3V supply, and verify option
+quartus_cpf -c -q 10MHz -g 3.3 -n v <input_sof_file> <output_svf_file>
+# To use 45 KHz TCK, 1.8V supply, and programming+blank_check option
+quartus_cpf -c -q 45KHz -g 1.8 -n pb <input_cdf_file> <output_svf_file>

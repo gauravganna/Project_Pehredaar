@@ -1,0 +1,47 @@
+# do LCD_Display_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying /opt/altera/13.0sp1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /opt/altera/13.0sp1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {LCD_Display.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package max_atom_pack
+# -- Loading package MAX_COMPONENTS
+# -- Compiling entity LCD_Display
+# -- Compiling architecture structure of LCD_Display
+# 
+vsim work.lcd_display
+# vsim work.lcd_display 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading max.max_atom_pack(body)
+# Loading max.max_components
+# Loading work.lcd_display(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading max.max_io(structure)
+# Loading max.max_asynch_io(behave)
+# Loading max.max_mcell(vital_mcell_atom)
+# Loading max.max_asynch_mcell(vital_mcell)
+# Loading max.max_mcell_register(vital_mcell_reg)
+# Loading max.max_sexp(structure)
+# Loading max.max_asynch_sexp(behave)
+add wave -position insertpoint  \
+sim:/lcd_display/CLK \
+sim:/lcd_display/RSTN \
+sim:/lcd_display/D \
+sim:/lcd_display/RS \
+sim:/lcd_display/RW
