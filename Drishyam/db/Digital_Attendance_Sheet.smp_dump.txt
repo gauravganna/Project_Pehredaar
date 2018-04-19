@@ -1,0 +1,16 @@
+
+State Machine - |Display_On_LCD|Q
+Name Q.state_bit_3 Q.state_bit_2 Q.state_bit_1 Q.state_bit_0 
+Q.CMD0 0 0 0 0 
+Q.CMD1 0 0 0 1 
+Q.CMD2 0 0 1 1 
+Q.ROLLNO0 0 0 1 0 
+Q.ROLLNO1 0 1 0 1 
+Q.ROLLNO2 0 1 1 1 
+Q.CMD4 0 1 0 0 
+Q.CMD5 0 1 1 0 
+Q.CMD6 1 0 0 0 
+Q.A0 1 0 0 1 
+Q.A1 1 0 1 0 
+Q.A2 1 0 1 1 
+Q.IDLE 1 1 0 0 
