@@ -1,5 +1,6 @@
 now=Attendance_$(date +"%Y_%m_%d_%I_%M_%p").txt
-grep -f entry.txt exit.txt > tmp.txt									#Finds the common entries in both the files and store it in a tmp file.
+path=/home/dell/RFID_AttendanceSystem/Lets\ Keep\ A\ Count
+grep -f "$path"/entry.txt "$path"/exit.txt > tmp.txt					#Finds the common entries in both the files and store it in a tmp file.
 cp Database.txt "$now"													#Create an attendance sheet for Each day.
 cat tmp.txt | while read p 												#Read each entry and mark Present against that Roll No
 do
