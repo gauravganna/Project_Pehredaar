@@ -1,0 +1,4 @@
+set tool_name "ModelSim-Altera (VHDL)"
+set corner_file_list {
+	{{"Slow Model"} {Digital_Attendance_Sheet.vho Digital_Attendance_Sheet_vhd.sdo}}
+}
