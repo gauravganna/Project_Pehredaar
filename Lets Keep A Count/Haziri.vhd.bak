@@ -44,14 +44,12 @@ begin
 	process(CLK_NEW)
 	begin
 		
-		--Start of First If Statement
-		if(RISING_EDGE(CLK_NEW) and cnt <= 2) then
+		if(RISING_EDGE(CLK_NEW) and cnt <= 0) then
 			cnt <= cnt + 1;
 			
 			--Start of Second If Statement.
 			--Used to initialise the values of O and OVERFLOW.
-			if(cnt = 0) then			
-				O <= "0000000000000000";
+				O <= "0000000000000111";
 				OVERFLOW <= C(3) and C(2) and C(1) and C(0);
 			
 			--BCD Counter Behavioural Code	

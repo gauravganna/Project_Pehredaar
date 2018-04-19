@@ -21,6 +21,7 @@ do
 	else
 		sed -i '33s/.*/	constant LCD_ATTENDANCE : ARR_TYPE6 := (X"41", X"42", X"53", X"45", X"4e",X"54", X"20");/' Display_On_LCD.vhdl 				#Adding HEX encoding for Absent
 	fi
+	./RUN.sh
 	lineno=$(( $lineno + 1 ))
 	sleep 10
 done
