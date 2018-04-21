@@ -45,7 +45,7 @@ begin
 	begin
 		
 		--Start of First If Statement
-		if(RISING_EDGE(CLK_NEW) and cnt <= 2) then
+		if(RISING_EDGE(CLK_NEW) and cnt <= 0) then
 			cnt <= cnt + 1;
 			
 			--Start of Second If Statement.

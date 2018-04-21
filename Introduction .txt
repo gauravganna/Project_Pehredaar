@@ -1,0 +1,10 @@
+Introduction :-
+
+RFID is a technology that is known to human for years but it's use in daily life is still a daydream. Our team, with our Project have made an attempt to bring this technology one step nearer to daily use . If you ever went to a big supermarket you must have noticed that if someone tries to take away some item without paying for it, a Siren triggers when he passes through any of the exit gate. How did the gate know that the person has not paid for an item in his cart? The technology behind this is RFID,the same technology which we have used in our project. RFID stands for Radio Frequency Identification. The main advantage of RFID is that it is not a Line of Sight Technology i.e. One doesn't require to be in straight line to the machine to use it. Barcode is an example of Line of Sight Technology.
+
+The main aim of our Project is to create an efficient, cost effective and automatic Tracking System.Also to give a thought to students to think further uses of this in day to day life. In the current system we are tracking the attendance of Students for each lecture. In our system , each student will have a passive(no battery or cell attached) RFID tag attached to it's ID Card. The door of each lecture hall will be equipped with an Active(uses energy and also transfers energy to the tag) RFID Reader. Whenever a student (having his ID card with him) attends the whole lecture,only then his attendance is marked for that lecture. This way we can solve the problem of manual attendance and can save time.It's not like Barcode that we need to scan our card daily before entering the hall(Here Not being a Line of Sight Technology is useful). With this technology, nothing is changed. Only students require to keep his ID card with him during lecture.
+
+
+
+
+ Nothing becomes perfect in the first attempt. Same goes with our system , there are certain flaws in it but with aid of other technology these can be removed.
