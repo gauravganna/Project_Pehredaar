@@ -1,0 +1,39 @@
+Our system is an amalgamation of C++,linux utitlies(bash script,sed,awk etc),Sublime Text Package,VHDL,Quartus CommandLine Arguments,CPLD Board(Helium Board) and JTAG. 
+
+Interval I1 :- [lecture start time - 10,lecture start time + 10 ]
+Interval I2 :- [lecture end time - 10, lecture end time + 10]
+ For Eg. if a lecture starts at 8:35 AM and ends at 10:55 AM, I1 = [8:25,8:45] and I2 = [10:45,11:05].
+
+How data reaches to our computer? (!Layman Terms!)
+RFID consists of three components : RFID tag,RFID Reader and an antenna. RFID tag has a chip which encodes the information about the chip (unique id). The one we are using is non writable but tags on which information can be written are available in market and using that we can encode the complete information about the object to which this tag will be attached. Nevertheless, our system is good enough with the unique id info. We are using passive RFID tag that means it requires no battery or cell to work. It has an antenna. Whenever RFID tag comes in proximity of RFID Reader , it get "activated". RFID reader radiate radio waves all the time. The RFID tag recieves this waves through antenna and then stores the energy provided by this waves. It then reads the information stored in it's chip and transmits back the information to the reader using this energy. RFID Reader recieves this information and transfers this to the Memory element (in our case PC) through serial communication.
+
+How frequent data is recorded?
+As we are implementing system for marking attendance, so the main thing we needed to avoid was late attendace and proxys. To do this , we implemented the following idea-> We marked the attendance twice : At the start of lecture and at the end of the lecture . The system was marking attendance for a certain time period in two cases during interval I1 and interval I2.It also removes duplication if any. During the lecture , it stops marking attendance, so if anyone reaches 50 - 60 minutes after lecture begin time , his attendance is not marked. 
+
+What happens to information when it is received?
+What we receive is the Unique ID of the tag. In PC, the file Attendance_Sheet is opened in Sublime Text (Why Sublime Text? We use a package [AutoSave] of Sublime text which saves a file automatically whenever a change in file is made.) and remains focused while marking of attendance is on. We have StartFromHere bash script running on the back hand which keeps an eye on the  Attendance_Sheet file. It does something every 25 seconds till marking of attendance is over. What it does is that On each 25 seconds it checks the file , removes the duplicate entries and then counts the total new Entries from the last time(25 second). It then updates the Haziri.vhd file with this new entries' count and also the number of students before this new entry and then runs the RUN.sh file. At the end of first time attendance a file "entry.txt" is created which stores the information of tags that were marked in interval I1. Similar goes with "exit.txt" which stores information of tags that were marked in interval I2.
+
+What RUN.sh does?
+It compiles the "Tracking_System" Project(with file "Haziri.vhd") and then creates an SVF file "DisplayOnSSD.svf". All this is done using the Command Line Arguments of Quartus. We have a file "CommandLine_Quartus.txt" which contains command line arguments of Quartus for Reference. After that it uploads the SVF file on the CPLD board by running JTAG Commands. JTAG don't have any built in Commandline arguments and hence we used linux utilities to perform this task.
+
+What Helium Board Displays (SSD) ?
+It shows increment to the previous number upto to the number of new Entries. On Each Rising Clock Edge, The shown number is incremented by 1 and displayed. We display 4 digit Decimal Number using Seven Segment Display with the help of Multiplexing. 
+
+What Next?
+After the attendance marking is over for the lecture, we have another bash script "Digital_Sheet.sh" which can be run if required. What it does it , it takes "entry.txt" and "exit.txt" and find common entries in both.It then creates a Attendance Sheet for the given day with the entries like
+Roll No.		Unique Tag ID		Present/Absent
+160010001			XXXXX				PRESENT
+160010002			YYYYY				ABSENT
+160010003			ZZZZZ				PRESENT
+.					  .						.
+.					  .						.
+.					  .						.
+
+The student is marked present only if his entry is present in both "entry.txt" and "exit.txt" file. Bash Script then loops over this new Sheet one entry at a time and changes the Roll No and "PRESENT/ABSENT" in the vhd file("Display_On_LCD.vhd") for this entry and then runs the RUN.sh file. Waits for 25 second after each iteration.
+
+
+What RUN.sh does?
+It compiles the "Digital_Attendance_Sheet" Project(with file "Display_On_LCD.vhd") and then creates an SVF file "DisplayOnLCD.svf". All this is done using the Command Line Arguments of Quartus.
+
+What Helium Board Displays (LCD) ?
+Liquid Crystal Display on the CPLD Board shows the Roll No on the first line and PRESENT/ABSENT on the second line. In this way , entry for each student enrolled for the course is shown on the Display one by one in increasing order of Roll No.
