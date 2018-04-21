@@ -1,4 +1,4 @@
-now=Attendance_$(date +"%Y_%m_%d_%I_%M_%p").txt
+now=Attendance_$(date +"%d_%m_%Y_%I_%M_%p").txt
 path=/home/dell/RFID_AttendanceSystem/Lets\ Keep\ A\ Count
 grep -f "$path"/entry.txt "$path"/exit.txt > tmp.txt					#Finds the common entries in both the files and store it in a tmp file.
 cp Database.txt "$now"													#Create an attendance sheet for Each day.
@@ -19,9 +19,8 @@ do
 	if $isPresent == "PRESENT" then
 		sed -i '33s/.*/	constant LCD_ATTENDANCE : ARR_TYPE6 := (X"50", X"52", X"45", X"53", X"45",X"4e", X"54");/' Display_On_LCD.vhd				#adding HEX encoding for present
 	else
-		sed -i '33s/.*/	constant LCD_ATTENDANCE : ARR_TYPE6 := (X"41", X"42", X"53", X"45", X"4e",X"54", X"20");/' Display_On_LCD.vhdl 				#Adding HEX encoding for Absent
+		sed -i '33s/.*/	constant LCD_ATTENDANCE : ARR_TYPE6 := (X"41", X"42", X"53", X"45", X"4e",X"54", X"20");/' Display_On_LCD.vhd 				#Adding HEX encoding for Absent
 	fi
 	./RUN.sh
 	lineno=$(( $lineno + 1 ))
-	sleep 10
 done
