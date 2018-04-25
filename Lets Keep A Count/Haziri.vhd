@@ -45,13 +45,13 @@ begin
 	begin
 		
 		--Start of First If Statement
-		if(RISING_EDGE(CLK_NEW) and cnt <= 0) then
+		if(RISING_EDGE(CLK_NEW) and cnt <= 2) then
 			cnt <= cnt + 1;
 			
 			--Start of Second If Statement.
 			--Used to initialise the values of O and OVERFLOW.
 			if(cnt = 0) then			
-				O <= "0000000000000000";
+				O <= "0000000000000011";
 				OVERFLOW <= C(3) and C(2) and C(1) and C(0);
 			
 			--BCD Counter Behavioural Code	
@@ -90,27 +90,38 @@ begin
 	--Synchronous Clock Divider.
 	--This process creates a Divide by 4 Clock(CLK_NEW) as well serves as a clock to Synchronous Moore Machine. 
 	process(CLK)
+	variable CNT : integer range 0 to 500 := 0;
 	begin
+
 		--Start of First If Statement.
 		if(RISING_EDGE(CLK)) then
-			Q <= QPLUS;													-- Give Next State Value to Current State.
+			if(CNT = 500) then
+				Q <= QPLUS;													-- Give Next State Value to Current State.
 			
-			--Start of Second If Statement.
-			--Clock Divison
-			if(CNT_CLK = 1) then
-				CLK_NEW <= not CLK_NEW ;
-				CNT_CLK <= 0;
+				--Start of Second If Statement.
+				--Clock Divison
+				if(CNT_CLK = 1) then
+					CLK_NEW <= not CLK_NEW ;
+					CNT_CLK <= 0;
 				
+				else
+					CNT_CLK <= CNT_CLK + 1;
+				
+				end if;
+				--End of Second If Statement.
+				CNT := 0;
 			else
-				CNT_CLK <= CNT_CLK + 1;
+				CNT := CNT + 1;
 				
 			end if;
-			--End of First If Statement.
-			
+			--End of Second If Statement.
 		end if;
-		--End of Second If Statement.
+		--End of Third If Statement
+		
+
 	end process;
 	--End of process 2
+	
 		
 	--Start of process 3.
 	--This process helps us to show all four digits on SSD.

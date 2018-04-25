@@ -1,5 +1,6 @@
 <?xml version="1.0" ?>
 <LOG_ROOT>
 	<PROJECT NAME="Tracking_System">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Haziri|lpm_add_sub:Add6" CBX_FILE_NAME="add_sub_6nh.tdf"/>
 	</PROJECT>
 </LOG_ROOT>
