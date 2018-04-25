@@ -16,7 +16,7 @@
 -- PROGRAM "Quartus II 32-bit"
 -- VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
 
--- DATE "04/19/2018 18:52:49"
+-- DATE "04/26/2018 00:08:17"
 
 -- 
 -- Device: Altera EPM3064ALC44-10 Package PLCC44
@@ -63,6 +63,105 @@ SIGNAL ww_CLK : std_logic;
 SIGNAL ww_OP : std_logic_vector(3 DOWNTO 0);
 SIGNAL ww_OVERFLOW : std_logic;
 SIGNAL ww_DP : std_logic;
+SIGNAL \process_1:CNT[1]_pterm0_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[1]_pterm1_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[1]_pterm2_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[1]_pterm3_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[1]_pterm4_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[1]_pterm5_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[1]_pxor_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[1]_pclk_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[1]_pena_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[1]_paclr_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[1]_papre_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[2]_pterm0_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[2]_pterm1_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[2]_pterm2_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[2]_pterm3_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[2]_pterm4_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[2]_pterm5_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[2]_pxor_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[2]_pclk_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[2]_pena_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[2]_paclr_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[2]_papre_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[3]_pterm0_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[3]_pterm1_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[3]_pterm2_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[3]_pterm3_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[3]_pterm4_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[3]_pterm5_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[3]_pxor_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[3]_pclk_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[3]_pena_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[3]_paclr_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[3]_papre_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[4]_pterm0_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[4]_pterm1_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[4]_pterm2_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[4]_pterm3_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[4]_pterm4_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[4]_pterm5_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[4]_pxor_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[4]_pclk_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[4]_pena_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[4]_paclr_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[4]_papre_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[5]_pterm0_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[5]_pterm1_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[5]_pterm2_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[5]_pterm3_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[5]_pterm4_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[5]_pterm5_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[5]_pxor_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[5]_pclk_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[5]_pena_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[5]_paclr_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[5]_papre_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[6]_pterm0_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[6]_pterm1_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[6]_pterm2_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[6]_pterm3_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[6]_pterm4_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[6]_pterm5_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[6]_pxor_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[6]_pclk_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[6]_pena_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[6]_paclr_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[6]_papre_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[7]_pterm0_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[7]_pterm1_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[7]_pterm2_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[7]_pterm3_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[7]_pterm4_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[7]_pterm5_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[7]_pxor_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[7]_pclk_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[7]_pena_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[7]_paclr_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[7]_papre_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[8]_pterm0_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[8]_pterm1_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[8]_pterm2_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[8]_pterm3_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[8]_pterm4_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[8]_pterm5_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[8]_pxor_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[8]_pclk_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[8]_pena_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[8]_paclr_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[8]_papre_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[0]_pterm0_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[0]_pterm1_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[0]_pterm2_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[0]_pterm3_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[0]_pterm4_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[0]_pterm5_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[0]_pxor_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[0]_pclk_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[0]_pena_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[0]_paclr_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \process_1:CNT[0]_papre_bus\ : std_logic_vector(51 DOWNTO 0);
 SIGNAL \Q.state_bit_0_pterm0_bus\ : std_logic_vector(51 DOWNTO 0);
 SIGNAL \Q.state_bit_0_pterm1_bus\ : std_logic_vector(51 DOWNTO 0);
 SIGNAL \Q.state_bit_0_pterm2_bus\ : std_logic_vector(51 DOWNTO 0);
@@ -74,6 +173,17 @@ SIGNAL \Q.state_bit_0_pclk_bus\ : std_logic_vector(51 DOWNTO 0);
 SIGNAL \Q.state_bit_0_pena_bus\ : std_logic_vector(51 DOWNTO 0);
 SIGNAL \Q.state_bit_0_paclr_bus\ : std_logic_vector(51 DOWNTO 0);
 SIGNAL \Q.state_bit_0_papre_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL CNT_CLK_pterm0_bus : std_logic_vector(51 DOWNTO 0);
+SIGNAL CNT_CLK_pterm1_bus : std_logic_vector(51 DOWNTO 0);
+SIGNAL CNT_CLK_pterm2_bus : std_logic_vector(51 DOWNTO 0);
+SIGNAL CNT_CLK_pterm3_bus : std_logic_vector(51 DOWNTO 0);
+SIGNAL CNT_CLK_pterm4_bus : std_logic_vector(51 DOWNTO 0);
+SIGNAL CNT_CLK_pterm5_bus : std_logic_vector(51 DOWNTO 0);
+SIGNAL CNT_CLK_pxor_bus : std_logic_vector(51 DOWNTO 0);
+SIGNAL CNT_CLK_pclk_bus : std_logic_vector(51 DOWNTO 0);
+SIGNAL CNT_CLK_pena_bus : std_logic_vector(51 DOWNTO 0);
+SIGNAL CNT_CLK_paclr_bus : std_logic_vector(51 DOWNTO 0);
+SIGNAL CNT_CLK_papre_bus : std_logic_vector(51 DOWNTO 0);
 SIGNAL CLK_NEW_pterm0_bus : std_logic_vector(51 DOWNTO 0);
 SIGNAL CLK_NEW_pterm1_bus : std_logic_vector(51 DOWNTO 0);
 SIGNAL CLK_NEW_pterm2_bus : std_logic_vector(51 DOWNTO 0);
@@ -85,6 +195,17 @@ SIGNAL CLK_NEW_pclk_bus : std_logic_vector(51 DOWNTO 0);
 SIGNAL CLK_NEW_pena_bus : std_logic_vector(51 DOWNTO 0);
 SIGNAL CLK_NEW_paclr_bus : std_logic_vector(51 DOWNTO 0);
 SIGNAL CLK_NEW_papre_bus : std_logic_vector(51 DOWNTO 0);
+SIGNAL \Q.state_bit_1_pterm0_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \Q.state_bit_1_pterm1_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \Q.state_bit_1_pterm2_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \Q.state_bit_1_pterm3_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \Q.state_bit_1_pterm4_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \Q.state_bit_1_pterm5_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \Q.state_bit_1_pxor_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \Q.state_bit_1_pclk_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \Q.state_bit_1_pena_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \Q.state_bit_1_paclr_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \Q.state_bit_1_papre_bus\ : std_logic_vector(51 DOWNTO 0);
 SIGNAL \cnt_rtl_0|dffs[13]_pterm0_bus\ : std_logic_vector(51 DOWNTO 0);
 SIGNAL \cnt_rtl_0|dffs[13]_pterm1_bus\ : std_logic_vector(51 DOWNTO 0);
 SIGNAL \cnt_rtl_0|dffs[13]_pterm2_bus\ : std_logic_vector(51 DOWNTO 0);
@@ -217,17 +338,6 @@ SIGNAL \cnt_rtl_0|dffs[2]_pclk_bus\ : std_logic_vector(51 DOWNTO 0);
 SIGNAL \cnt_rtl_0|dffs[2]_pena_bus\ : std_logic_vector(51 DOWNTO 0);
 SIGNAL \cnt_rtl_0|dffs[2]_paclr_bus\ : std_logic_vector(51 DOWNTO 0);
 SIGNAL \cnt_rtl_0|dffs[2]_papre_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \Q.state_bit_1_pterm0_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \Q.state_bit_1_pterm1_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \Q.state_bit_1_pterm2_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \Q.state_bit_1_pterm3_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \Q.state_bit_1_pterm4_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \Q.state_bit_1_pterm5_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \Q.state_bit_1_pxor_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \Q.state_bit_1_pclk_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \Q.state_bit_1_pena_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \Q.state_bit_1_paclr_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \Q.state_bit_1_papre_bus\ : std_logic_vector(51 DOWNTO 0);
 SIGNAL \Q.S0~3_pterm0_bus\ : std_logic_vector(51 DOWNTO 0);
 SIGNAL \Q.S0~3_pterm1_bus\ : std_logic_vector(51 DOWNTO 0);
 SIGNAL \Q.S0~3_pterm2_bus\ : std_logic_vector(51 DOWNTO 0);
@@ -294,50 +404,50 @@ SIGNAL \cnt_rtl_0|dffs[1]_pclk_bus\ : std_logic_vector(51 DOWNTO 0);
 SIGNAL \cnt_rtl_0|dffs[1]_pena_bus\ : std_logic_vector(51 DOWNTO 0);
 SIGNAL \cnt_rtl_0|dffs[1]_paclr_bus\ : std_logic_vector(51 DOWNTO 0);
 SIGNAL \cnt_rtl_0|dffs[1]_papre_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[0]_pterm0_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[0]_pterm1_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[0]_pterm2_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[0]_pterm3_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[0]_pterm4_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[0]_pterm5_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[0]_pxor_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[0]_pclk_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[0]_pena_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[0]_paclr_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[0]_papre_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[1]_pterm0_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[1]_pterm1_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[1]_pterm2_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[1]_pterm3_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[1]_pterm4_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[1]_pterm5_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[1]_pxor_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[1]_pclk_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[1]_pena_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[1]_paclr_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[1]_papre_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[2]_pterm0_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[2]_pterm1_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[2]_pterm2_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[2]_pterm3_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[2]_pterm4_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[2]_pterm5_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[2]_pxor_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[2]_pclk_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[2]_pena_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[2]_paclr_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[2]_papre_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[3]_pterm0_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[3]_pterm1_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[3]_pterm2_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[3]_pterm3_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[3]_pterm4_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[3]_pterm5_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[3]_pxor_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[3]_pclk_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[3]_pena_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[3]_paclr_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[3]_papre_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[0]_pterm0_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[0]_pterm1_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[0]_pterm2_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[0]_pterm3_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[0]_pterm4_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[0]_pterm5_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[0]_pxor_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[0]_pclk_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[0]_pena_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[0]_paclr_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[0]_papre_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[1]_pterm0_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[1]_pterm1_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[1]_pterm2_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[1]_pterm3_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[1]_pterm4_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[1]_pterm5_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[1]_pxor_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[1]_pclk_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[1]_pena_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[1]_paclr_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[1]_papre_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[2]_pterm0_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[2]_pterm1_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[2]_pterm2_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[2]_pterm3_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[2]_pterm4_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[2]_pterm5_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[2]_pxor_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[2]_pclk_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[2]_pena_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[2]_paclr_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[2]_papre_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[3]_pterm0_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[3]_pterm1_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[3]_pterm2_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[3]_pterm3_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[3]_pterm4_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[3]_pterm5_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[3]_pxor_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[3]_pclk_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[3]_pena_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[3]_paclr_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[3]_papre_bus\ : std_logic_vector(51 DOWNTO 0);
 SIGNAL \Add3~5_pterm0_bus\ : std_logic_vector(51 DOWNTO 0);
 SIGNAL \Add3~5_pterm1_bus\ : std_logic_vector(51 DOWNTO 0);
 SIGNAL \Add3~5_pterm2_bus\ : std_logic_vector(51 DOWNTO 0);
@@ -569,28 +679,28 @@ SIGNAL \Selector3~9_pclk_bus\ : std_logic_vector(51 DOWNTO 0);
 SIGNAL \Selector3~9_pena_bus\ : std_logic_vector(51 DOWNTO 0);
 SIGNAL \Selector3~9_paclr_bus\ : std_logic_vector(51 DOWNTO 0);
 SIGNAL \Selector3~9_papre_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[1]~43_pterm0_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[1]~43_pterm1_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[1]~43_pterm2_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[1]~43_pterm3_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[1]~43_pterm4_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[1]~43_pterm5_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[1]~43_pxor_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[1]~43_pclk_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[1]~43_pena_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[1]~43_paclr_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[1]~43_papre_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[3]~47_pterm0_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[3]~47_pterm1_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[3]~47_pterm2_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[3]~47_pterm3_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[3]~47_pterm4_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[3]~47_pterm5_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[3]~47_pxor_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[3]~47_pclk_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[3]~47_pena_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[3]~47_paclr_bus\ : std_logic_vector(51 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs[3]~47_papre_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[1]~89_pterm0_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[1]~89_pterm1_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[1]~89_pterm2_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[1]~89_pterm3_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[1]~89_pterm4_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[1]~89_pterm5_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[1]~89_pxor_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[1]~89_pclk_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[1]~89_pena_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[1]~89_paclr_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[1]~89_papre_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[3]~93_pterm0_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[3]~93_pterm1_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[3]~93_pterm2_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[3]~93_pterm3_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[3]~93_pterm4_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[3]~93_pterm5_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[3]~93_pxor_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[3]~93_pclk_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[3]~93_pena_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[3]~93_paclr_bus\ : std_logic_vector(51 DOWNTO 0);
+SIGNAL \O[3]~93_papre_bus\ : std_logic_vector(51 DOWNTO 0);
 SIGNAL \~VCC~0_pterm0_bus\ : std_logic_vector(51 DOWNTO 0);
 SIGNAL \~VCC~0_pterm1_bus\ : std_logic_vector(51 DOWNTO 0);
 SIGNAL \~VCC~0_pterm2_bus\ : std_logic_vector(51 DOWNTO 0);
@@ -621,15 +731,25 @@ SIGNAL \process_0~14_datain_bus\ : std_logic_vector(51 DOWNTO 0);
 SIGNAL \C[0]~3_datain_bus\ : std_logic_vector(51 DOWNTO 0);
 SIGNAL \CLK~dataout\ : std_logic;
 SIGNAL \~VCC~0~dataout\ : std_logic;
+SIGNAL \process_1:CNT[1]~dataout\ : std_logic;
+SIGNAL \process_1:CNT[3]~dataout\ : std_logic;
+SIGNAL \process_1:CNT[5]~dataout\ : std_logic;
+SIGNAL \process_1:CNT[4]~dataout\ : std_logic;
+SIGNAL \process_1:CNT[7]~dataout\ : std_logic;
+SIGNAL \process_1:CNT[6]~dataout\ : std_logic;
+SIGNAL \process_1:CNT[8]~dataout\ : std_logic;
+SIGNAL \process_1:CNT[2]~dataout\ : std_logic;
+SIGNAL \process_1:CNT[0]~dataout\ : std_logic;
 SIGNAL \Q.state_bit_0~dataout\ : std_logic;
 SIGNAL \Q.state_bit_1~dataout\ : std_logic;
 SIGNAL \Q.S3~3_dataout\ : std_logic;
 SIGNAL \Q.S2~3_dataout\ : std_logic;
 SIGNAL \Q.S1~3_dataout\ : std_logic;
 SIGNAL \Q.S0~3_dataout\ : std_logic;
+SIGNAL \CNT_CLK~dataout\ : std_logic;
 SIGNAL \CLK_NEW~dataout\ : std_logic;
-SIGNAL \O_rtl_2|dffs[3]~47_pexpout\ : std_logic;
-SIGNAL \O_rtl_2|dffs[1]~43_pexpout\ : std_logic;
+SIGNAL \O[1]~89_pexpout\ : std_logic;
+SIGNAL \O[3]~93_pexpout\ : std_logic;
 SIGNAL \LessThan0~4_dataout\ : std_logic;
 SIGNAL \C[0]~3_dataout\ : std_logic;
 SIGNAL \Add3~9_dataout\ : std_logic;
@@ -656,19 +776,20 @@ SIGNAL \OVERFLOW~3_dataout\ : std_logic;
 SIGNAL \OVERFLOW~4_dataout\ : std_logic;
 SIGNAL \OVERFLOW~reg0_dataout\ : std_logic;
 SIGNAL \Selector3~9_dataout\ : std_logic;
+SIGNAL \O_rtl_1|dffs\ : std_logic_vector(3 DOWNTO 0);
 SIGNAL \O_rtl_0|dffs\ : std_logic_vector(3 DOWNTO 0);
 SIGNAL \cnt_rtl_0|dffs\ : std_logic_vector(13 DOWNTO 0);
-SIGNAL \O_rtl_2|dffs\ : std_logic_vector(3 DOWNTO 0);
-SIGNAL \O_rtl_1|dffs\ : std_logic_vector(3 DOWNTO 0);
 SIGNAL O : std_logic_vector(15 DOWNTO 0);
-SIGNAL ALT_INV_O : std_logic_vector(6 DOWNTO 4);
+SIGNAL ALT_INV_O : std_logic_vector(6 DOWNTO 0);
 SIGNAL \O_rtl_0|ALT_INV_dffs\ : std_logic_vector(2 DOWNTO 0);
 SIGNAL \O_rtl_1|ALT_INV_dffs\ : std_logic_vector(2 DOWNTO 0);
 SIGNAL \ALT_INV_LessThan0~4_dataout\ : std_logic;
-SIGNAL \O_rtl_2|ALT_INV_dffs\ : std_logic_vector(3 DOWNTO 1);
 SIGNAL \cnt_rtl_0|ALT_INV_dffs\ : std_logic_vector(13 DOWNTO 0);
 SIGNAL \ALT_INV_Q.state_bit_1~dataout\ : std_logic;
 SIGNAL \ALT_INV_Q.state_bit_0~dataout\ : std_logic;
+SIGNAL \ALT_INV_process_1:CNT[0]~dataout\ : std_logic;
+SIGNAL \ALT_INV_process_1:CNT[3]~dataout\ : std_logic;
+SIGNAL \ALT_INV_process_1:CNT[1]~dataout\ : std_logic;
 
 BEGIN
 
@@ -677,11 +798,317 @@ OP <= ww_OP;
 OVERFLOW <= ww_OVERFLOW;
 DP <= ww_DP;
 
+\process_1:CNT[1]_pterm0_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[1]_pterm1_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[1]_pterm2_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
+& vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & \process_1:CNT[1]~dataout\);
+
+\process_1:CNT[1]_pterm3_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[1]_pterm4_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[1]_pterm5_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[1]_pxor_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
+vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & \process_1:CNT[0]~dataout\);
+
+\process_1:CNT[1]_pclk_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[1]_pena_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
+vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc);
+
+\process_1:CNT[1]_paclr_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[1]_papre_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[2]_pterm0_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[2]_pterm1_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
+& vcc & vcc & vcc & vcc & vcc & vcc & \process_1:CNT[2]~dataout\ & NOT \process_1:CNT[0]~dataout\ & NOT \process_1:CNT[1]~dataout\ & \process_1:CNT[7]~dataout\ & \process_1:CNT[6]~dataout\ & \process_1:CNT[5]~dataout\ & \process_1:CNT[4]~dataout\ & 
+\process_1:CNT[8]~dataout\ & NOT \process_1:CNT[3]~dataout\);
+
+\process_1:CNT[2]_pterm2_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
+& vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & \process_1:CNT[0]~dataout\ & \process_1:CNT[1]~dataout\);
+
+\process_1:CNT[2]_pterm3_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[2]_pterm4_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[2]_pterm5_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[2]_pxor_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[2]_pclk_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[2]_pena_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
+vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc);
+
+\process_1:CNT[2]_paclr_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[2]_papre_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[3]_pterm0_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[3]_pterm1_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[3]_pterm2_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
+& vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & \process_1:CNT[3]~dataout\);
+
+\process_1:CNT[3]_pterm3_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[3]_pterm4_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[3]_pterm5_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[3]_pxor_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
+vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & \process_1:CNT[1]~dataout\ & \process_1:CNT[0]~dataout\ & \process_1:CNT[2]~dataout\);
+
+\process_1:CNT[3]_pclk_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[3]_pena_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
+vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc);
+
+\process_1:CNT[3]_paclr_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[3]_papre_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[4]_pterm0_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[4]_pterm1_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
+& vcc & vcc & vcc & vcc & vcc & vcc & \process_1:CNT[4]~dataout\ & NOT \process_1:CNT[0]~dataout\ & \process_1:CNT[2]~dataout\ & NOT \process_1:CNT[3]~dataout\ & NOT \process_1:CNT[1]~dataout\ & \process_1:CNT[7]~dataout\ & \process_1:CNT[6]~dataout\ & 
+\process_1:CNT[5]~dataout\ & \process_1:CNT[8]~dataout\);
+
+\process_1:CNT[4]_pterm2_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
+& vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & \process_1:CNT[0]~dataout\ & \process_1:CNT[2]~dataout\ & \process_1:CNT[3]~dataout\ & \process_1:CNT[1]~dataout\);
+
+\process_1:CNT[4]_pterm3_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[4]_pterm4_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[4]_pterm5_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[4]_pxor_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[4]_pclk_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[4]_pena_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
+vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc);
+
+\process_1:CNT[4]_paclr_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[4]_papre_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[5]_pterm0_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[5]_pterm1_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
+& vcc & vcc & vcc & vcc & vcc & vcc & \process_1:CNT[5]~dataout\ & \process_1:CNT[4]~dataout\ & NOT \process_1:CNT[0]~dataout\ & \process_1:CNT[2]~dataout\ & NOT \process_1:CNT[3]~dataout\ & NOT \process_1:CNT[1]~dataout\ & \process_1:CNT[7]~dataout\ & 
+\process_1:CNT[6]~dataout\ & \process_1:CNT[8]~dataout\);
+
+\process_1:CNT[5]_pterm2_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
+& vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & \process_1:CNT[4]~dataout\ & \process_1:CNT[0]~dataout\ & \process_1:CNT[2]~dataout\ & \process_1:CNT[3]~dataout\ & \process_1:CNT[1]~dataout\);
+
+\process_1:CNT[5]_pterm3_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[5]_pterm4_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[5]_pterm5_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[5]_pxor_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[5]_pclk_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[5]_pena_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
+vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc);
+
+\process_1:CNT[5]_paclr_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[5]_papre_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[6]_pterm0_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[6]_pterm1_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
+& vcc & vcc & vcc & vcc & vcc & vcc & \process_1:CNT[6]~dataout\ & \process_1:CNT[5]~dataout\ & \process_1:CNT[4]~dataout\ & NOT \process_1:CNT[0]~dataout\ & \process_1:CNT[2]~dataout\ & NOT \process_1:CNT[3]~dataout\ & NOT \process_1:CNT[1]~dataout\ & 
+\process_1:CNT[7]~dataout\ & \process_1:CNT[8]~dataout\);
+
+\process_1:CNT[6]_pterm2_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
+& vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & \process_1:CNT[5]~dataout\ & \process_1:CNT[4]~dataout\ & \process_1:CNT[0]~dataout\ & \process_1:CNT[2]~dataout\ & \process_1:CNT[3]~dataout\ & \process_1:CNT[1]~dataout\);
+
+\process_1:CNT[6]_pterm3_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[6]_pterm4_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[6]_pterm5_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[6]_pxor_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[6]_pclk_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[6]_pena_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
+vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc);
+
+\process_1:CNT[6]_paclr_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[6]_papre_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[7]_pterm0_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[7]_pterm1_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
+& vcc & vcc & vcc & vcc & vcc & vcc & \process_1:CNT[7]~dataout\ & \process_1:CNT[6]~dataout\ & \process_1:CNT[5]~dataout\ & \process_1:CNT[4]~dataout\ & NOT \process_1:CNT[0]~dataout\ & \process_1:CNT[2]~dataout\ & NOT \process_1:CNT[3]~dataout\ & NOT 
+\process_1:CNT[1]~dataout\ & \process_1:CNT[8]~dataout\);
+
+\process_1:CNT[7]_pterm2_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
+& vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & \process_1:CNT[6]~dataout\ & \process_1:CNT[5]~dataout\ & \process_1:CNT[4]~dataout\ & \process_1:CNT[0]~dataout\ & \process_1:CNT[2]~dataout\ & \process_1:CNT[3]~dataout\ & \process_1:CNT[1]~dataout\);
+
+\process_1:CNT[7]_pterm3_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[7]_pterm4_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[7]_pterm5_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[7]_pxor_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[7]_pclk_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[7]_pena_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
+vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc);
+
+\process_1:CNT[7]_paclr_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[7]_papre_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[8]_pterm0_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[8]_pterm1_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
+& vcc & vcc & vcc & vcc & vcc & vcc & \process_1:CNT[8]~dataout\ & \process_1:CNT[7]~dataout\ & \process_1:CNT[5]~dataout\ & \process_1:CNT[4]~dataout\ & \process_1:CNT[6]~dataout\ & \process_1:CNT[2]~dataout\ & NOT \process_1:CNT[1]~dataout\ & NOT 
+\process_1:CNT[3]~dataout\ & NOT \process_1:CNT[0]~dataout\);
+
+\process_1:CNT[8]_pterm2_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
+& vcc & vcc & vcc & vcc & vcc & vcc & vcc & \process_1:CNT[7]~dataout\ & \process_1:CNT[5]~dataout\ & \process_1:CNT[4]~dataout\ & \process_1:CNT[6]~dataout\ & \process_1:CNT[2]~dataout\ & \process_1:CNT[1]~dataout\ & \process_1:CNT[3]~dataout\ & 
+\process_1:CNT[0]~dataout\);
+
+\process_1:CNT[8]_pterm3_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[8]_pterm4_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[8]_pterm5_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[8]_pxor_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[8]_pclk_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[8]_pena_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
+vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc);
+
+\process_1:CNT[8]_paclr_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[8]_papre_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[0]_pterm0_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[0]_pterm1_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
+& vcc & vcc & vcc & vcc & vcc & vcc & NOT \process_1:CNT[0]~dataout\ & \process_1:CNT[7]~dataout\ & \process_1:CNT[6]~dataout\ & \process_1:CNT[5]~dataout\ & \process_1:CNT[4]~dataout\ & \process_1:CNT[8]~dataout\ & NOT \process_1:CNT[3]~dataout\ & 
+\process_1:CNT[2]~dataout\ & NOT \process_1:CNT[1]~dataout\);
+
+\process_1:CNT[0]_pterm2_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[0]_pterm3_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[0]_pterm4_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[0]_pterm5_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[0]_pxor_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[0]_pclk_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[0]_pena_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
+vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc);
+
+\process_1:CNT[0]_paclr_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\process_1:CNT[0]_papre_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
 \Q.state_bit_0_pterm0_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
 gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\Q.state_bit_0_pterm1_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
-gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\Q.state_bit_0_pterm1_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
+vcc & vcc & vcc & vcc & vcc & vcc & \process_1:CNT[7]~dataout\ & \process_1:CNT[6]~dataout\ & \process_1:CNT[5]~dataout\ & \process_1:CNT[4]~dataout\ & \process_1:CNT[8]~dataout\ & NOT \process_1:CNT[3]~dataout\ & \process_1:CNT[2]~dataout\ & NOT 
+\process_1:CNT[1]~dataout\ & NOT \process_1:CNT[0]~dataout\);
 
 \Q.state_bit_0_pterm2_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
 gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
@@ -710,6 +1137,40 @@ gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gn
 \Q.state_bit_0_papre_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
 & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
+CNT_CLK_pterm0_bus <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+CNT_CLK_pterm1_bus <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+CNT_CLK_pterm2_bus <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+CNT_CLK_pterm3_bus <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+CNT_CLK_pterm4_bus <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+CNT_CLK_pterm5_bus <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+CNT_CLK_pxor_bus <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+CNT_CLK_pclk_bus <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+CNT_CLK_pena_bus <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
+vcc & vcc & vcc & vcc & \process_1:CNT[7]~dataout\ & \process_1:CNT[6]~dataout\ & \process_1:CNT[5]~dataout\ & \process_1:CNT[4]~dataout\ & \process_1:CNT[8]~dataout\ & NOT \process_1:CNT[3]~dataout\ & \process_1:CNT[2]~dataout\ & NOT 
+\process_1:CNT[1]~dataout\ & NOT \process_1:CNT[0]~dataout\);
+
+CNT_CLK_paclr_bus <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+CNT_CLK_papre_bus <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
 CLK_NEW_pterm0_bus <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
 & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
@@ -735,13 +1196,48 @@ CLK_NEW_pclk_bus <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd &
 gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
 CLK_NEW_pena_bus <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & \Q.state_bit_0~dataout\);
+vcc & vcc & vcc & \process_1:CNT[7]~dataout\ & \process_1:CNT[6]~dataout\ & \process_1:CNT[5]~dataout\ & \process_1:CNT[4]~dataout\ & \process_1:CNT[8]~dataout\ & NOT \process_1:CNT[3]~dataout\ & \process_1:CNT[2]~dataout\ & NOT \process_1:CNT[1]~dataout\
+& NOT \process_1:CNT[0]~dataout\ & \CNT_CLK~dataout\);
 
 CLK_NEW_paclr_bus <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
 & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
 CLK_NEW_papre_bus <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
 & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\Q.state_bit_1_pterm0_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\Q.state_bit_1_pterm1_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
+vcc & vcc & vcc & vcc & vcc & \process_1:CNT[7]~dataout\ & \process_1:CNT[6]~dataout\ & \process_1:CNT[5]~dataout\ & \process_1:CNT[4]~dataout\ & \process_1:CNT[8]~dataout\ & NOT \process_1:CNT[3]~dataout\ & \process_1:CNT[2]~dataout\ & NOT 
+\process_1:CNT[1]~dataout\ & NOT \process_1:CNT[0]~dataout\ & \Q.state_bit_0~dataout\);
+
+\Q.state_bit_1_pterm2_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\Q.state_bit_1_pterm3_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\Q.state_bit_1_pterm4_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\Q.state_bit_1_pterm5_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\Q.state_bit_1_pxor_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\Q.state_bit_1_pclk_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\Q.state_bit_1_pena_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
+& vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc);
+
+\Q.state_bit_1_paclr_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+
+\Q.state_bit_1_papre_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
 \cnt_rtl_0|dffs[13]_pterm0_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
 & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
@@ -1139,39 +1635,6 @@ vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vc
 \cnt_rtl_0|dffs[2]_papre_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
 & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\Q.state_bit_1_pterm0_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
-gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
-
-\Q.state_bit_1_pterm1_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & NOT \Q.state_bit_0~dataout\);
-
-\Q.state_bit_1_pterm2_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
-gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
-
-\Q.state_bit_1_pterm3_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
-gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
-
-\Q.state_bit_1_pterm4_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
-gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
-
-\Q.state_bit_1_pterm5_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
-gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
-
-\Q.state_bit_1_pxor_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
-& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
-
-\Q.state_bit_1_pclk_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
-& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
-
-\Q.state_bit_1_pena_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
-& vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc);
-
-\Q.state_bit_1_paclr_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
-& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
-
-\Q.state_bit_1_papre_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
-& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
-
 \Q.S0~3_pterm0_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
 & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
@@ -1373,151 +1836,151 @@ vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vc
 \cnt_rtl_0|dffs[1]_papre_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
 & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[0]_pterm0_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
-gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[0]_pterm0_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[0]_pterm1_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-vcc & NOT \cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9) & NOT \cnt_rtl_0|dffs\(10)
-& NOT \cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & NOT \cnt_rtl_0|dffs\(0) & \cnt_rtl_0|dffs\(1));
+\O[0]_pterm1_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & NOT 
+O(0) & NOT \cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(1) & NOT \cnt_rtl_0|dffs\(13) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(10) & NOT \cnt_rtl_0|dffs\(9) & NOT \cnt_rtl_0|dffs\(8) & NOT 
+\cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(3));
 
-\O_rtl_2|dffs[0]_pterm2_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-vcc & NOT \cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9) & NOT \cnt_rtl_0|dffs\(10)
-& NOT \cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & \cnt_rtl_0|dffs\(0) & NOT \cnt_rtl_0|dffs\(1));
+\O[0]_pterm2_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & NOT 
+\cnt_rtl_0|dffs\(0) & NOT \cnt_rtl_0|dffs\(2) & \cnt_rtl_0|dffs\(1) & NOT \cnt_rtl_0|dffs\(13) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(10) & NOT \cnt_rtl_0|dffs\(9) & NOT \cnt_rtl_0|dffs\(8) & NOT 
+\cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(3));
 
-\O_rtl_2|dffs[0]_pterm3_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
-gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[0]_pterm3_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[0]_pterm4_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-vcc & \O_rtl_2|dffs\(0) & NOT \cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9) & 
-NOT \cnt_rtl_0|dffs\(10) & NOT \cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & NOT \cnt_rtl_0|dffs\(1));
+\O[0]_pterm4_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
+\cnt_rtl_0|dffs\(0) & NOT \cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(1) & NOT \cnt_rtl_0|dffs\(13) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(10) & NOT \cnt_rtl_0|dffs\(9) & NOT \cnt_rtl_0|dffs\(8) & NOT 
+\cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(3));
 
-\O_rtl_2|dffs[0]_pterm5_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
-gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[0]_pterm5_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[0]_pxor_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
-gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[0]_pxor_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[0]_pclk_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & \CLK_NEW~dataout\);
+\O[0]_pclk_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
+vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & \CLK_NEW~dataout\);
 
-\O_rtl_2|dffs[0]_pena_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc);
+\O[0]_pena_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
+vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc);
 
-\O_rtl_2|dffs[0]_paclr_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
-gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[0]_paclr_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[0]_papre_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
-gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[0]_papre_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[1]_pterm0_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-\O_rtl_2|dffs\(1) & NOT \cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9) & NOT 
-\cnt_rtl_0|dffs\(10) & NOT \cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & NOT \cnt_rtl_0|dffs\(0) & NOT \cnt_rtl_0|dffs\(1));
+\O[1]_pterm0_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
+\cnt_rtl_0|dffs\(0) & O(1) & NOT \cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9)
+& NOT \cnt_rtl_0|dffs\(10) & NOT \cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & O(0) & NOT \cnt_rtl_0|dffs\(1));
 
-\O_rtl_2|dffs[1]_pterm1_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & NOT 
+\O[1]_pterm1_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & NOT O(1) & NOT 
 \cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9) & NOT \cnt_rtl_0|dffs\(10) & NOT 
-\cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & \cnt_rtl_0|dffs\(0) & NOT \cnt_rtl_0|dffs\(1) & \O_rtl_2|dffs\(0) & \O_rtl_2|dffs\(2));
+\cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & O(0) & NOT \cnt_rtl_0|dffs\(1) & NOT O(3));
 
-\O_rtl_2|dffs[1]_pterm2_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-\O_rtl_2|dffs\(1) & NOT \cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9) & NOT 
-\cnt_rtl_0|dffs\(10) & NOT \cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & NOT \cnt_rtl_0|dffs\(1) & \O_rtl_2|dffs\(0));
+\O[1]_pterm2_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & NOT 
+\cnt_rtl_0|dffs\(0) & NOT O(1) & NOT \cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT 
+\cnt_rtl_0|dffs\(9) & NOT \cnt_rtl_0|dffs\(10) & NOT \cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & O(0) & NOT O(3));
 
-\O_rtl_2|dffs[1]_pterm3_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
-gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[1]_pterm3_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[1]_pterm4_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-\O_rtl_2|dffs\(1) & NOT \cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9) & NOT 
-\cnt_rtl_0|dffs\(10) & NOT \cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & NOT \cnt_rtl_0|dffs\(0) & \O_rtl_2|dffs\(0));
+\O[1]_pterm4_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & NOT 
+\cnt_rtl_0|dffs\(0) & O(1) & NOT \cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9)
+& NOT \cnt_rtl_0|dffs\(10) & NOT \cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & O(0) & \cnt_rtl_0|dffs\(1));
 
-\O_rtl_2|dffs[1]_pterm5_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
-gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[1]_pterm5_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[1]_pxor_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
-gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[1]_pxor_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[1]_pclk_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & \CLK_NEW~dataout\);
+\O[1]_pclk_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
+vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & \CLK_NEW~dataout\);
 
-\O_rtl_2|dffs[1]_pena_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc);
+\O[1]_pena_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
+vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc);
 
-\O_rtl_2|dffs[1]_paclr_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
-gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[1]_paclr_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[1]_papre_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
-gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[1]_papre_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[2]_pterm0_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
-gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[2]_pterm0_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[2]_pterm1_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & NOT 
+\O[2]_pterm1_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & NOT 
 \cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9) & NOT \cnt_rtl_0|dffs\(10) & NOT 
-\cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & NOT \cnt_rtl_0|dffs\(0) & \O_rtl_2|dffs\(0) & \O_rtl_2|dffs\(1) & \cnt_rtl_0|dffs\(1));
+\cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & NOT \cnt_rtl_0|dffs\(0) & \cnt_rtl_0|dffs\(1) & O(1) & O(0));
 
-\O_rtl_2|dffs[2]_pterm2_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & NOT 
+\O[2]_pterm2_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & NOT 
 \cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9) & NOT \cnt_rtl_0|dffs\(10) & NOT 
-\cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & \cnt_rtl_0|dffs\(0) & \O_rtl_2|dffs\(0) & \O_rtl_2|dffs\(1) & NOT \cnt_rtl_0|dffs\(1));
+\cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & \cnt_rtl_0|dffs\(0) & NOT \cnt_rtl_0|dffs\(1) & O(1) & O(0));
 
-\O_rtl_2|dffs[2]_pterm3_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
-gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[2]_pterm3_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[2]_pterm4_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-\O_rtl_2|dffs\(2) & NOT \cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9) & NOT 
-\cnt_rtl_0|dffs\(10) & NOT \cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & NOT \cnt_rtl_0|dffs\(0) & NOT \cnt_rtl_0|dffs\(1));
+\O[2]_pterm4_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & O(2) & 
+NOT \cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9) & NOT \cnt_rtl_0|dffs\(10) & 
+NOT \cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & NOT \cnt_rtl_0|dffs\(0) & NOT \cnt_rtl_0|dffs\(1));
 
-\O_rtl_2|dffs[2]_pterm5_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
-gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[2]_pterm5_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[2]_pxor_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
-gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[2]_pxor_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[2]_pclk_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & \CLK_NEW~dataout\);
+\O[2]_pclk_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
+vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & \CLK_NEW~dataout\);
 
-\O_rtl_2|dffs[2]_pena_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc);
+\O[2]_pena_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
+vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc);
 
-\O_rtl_2|dffs[2]_paclr_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
-gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[2]_paclr_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[2]_papre_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
-gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[2]_papre_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[3]_pterm0_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-\O_rtl_2|dffs\(3) & NOT \cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(0) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT 
-\cnt_rtl_0|dffs\(9) & NOT \cnt_rtl_0|dffs\(10) & NOT \cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & NOT \cnt_rtl_0|dffs\(1));
+\O[3]_pterm0_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & O(3) & 
+NOT \cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9) & NOT \cnt_rtl_0|dffs\(10) & 
+NOT \cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & NOT \cnt_rtl_0|dffs\(0) & NOT \cnt_rtl_0|dffs\(1));
 
-\O_rtl_2|dffs[3]_pterm1_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & NOT 
-\cnt_rtl_0|dffs\(2) & \cnt_rtl_0|dffs\(0) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9) & NOT 
-\cnt_rtl_0|dffs\(10) & NOT \cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & \O_rtl_2|dffs\(2) & \O_rtl_2|dffs\(1) & \O_rtl_2|dffs\(0) & NOT \cnt_rtl_0|dffs\(1));
+\O[3]_pterm1_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & NOT 
+\cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9) & NOT \cnt_rtl_0|dffs\(10) & NOT 
+\cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & \cnt_rtl_0|dffs\(0) & NOT \cnt_rtl_0|dffs\(1) & O(1) & O(0) & O(2));
 
-\O_rtl_2|dffs[3]_pterm2_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-\O_rtl_2|dffs\(3) & NOT \cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9) & NOT 
-\cnt_rtl_0|dffs\(10) & NOT \cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & NOT \O_rtl_2|dffs\(2) & NOT \O_rtl_2|dffs\(1) & \O_rtl_2|dffs\(0) & NOT \cnt_rtl_0|dffs\(1));
+\O[3]_pterm2_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & O(3) & NOT 
+\cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9) & NOT \cnt_rtl_0|dffs\(10) & NOT 
+\cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & NOT \cnt_rtl_0|dffs\(1) & NOT O(1) & O(0) & NOT O(2));
 
-\O_rtl_2|dffs[3]_pterm3_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
-gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[3]_pterm3_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[3]_pterm4_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-\O_rtl_2|dffs\(3) & NOT \cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(0) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT 
-\cnt_rtl_0|dffs\(9) & NOT \cnt_rtl_0|dffs\(10) & NOT \cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & NOT \O_rtl_2|dffs\(2) & NOT \O_rtl_2|dffs\(1) & \O_rtl_2|dffs\(0));
+\O[3]_pterm4_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & O(3) & NOT 
+\cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9) & NOT \cnt_rtl_0|dffs\(10) & NOT 
+\cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & NOT \cnt_rtl_0|dffs\(0) & NOT O(1) & O(0) & NOT O(2));
 
-\O_rtl_2|dffs[3]_pterm5_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
-gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[3]_pterm5_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[3]_pxor_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
-gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[3]_pxor_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[3]_pclk_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & \CLK_NEW~dataout\);
+\O[3]_pclk_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
+vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & \CLK_NEW~dataout\);
 
-\O_rtl_2|dffs[3]_pena_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc);
+\O[3]_pena_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
+vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc);
 
-\O_rtl_2|dffs[3]_paclr_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
-gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[3]_paclr_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[3]_papre_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
-gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[3]_papre_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
 \Add3~5_pterm0_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
 & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
@@ -1600,8 +2063,7 @@ vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vc
 & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
 \O[5]_pterm4_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
-& vcc & vcc & vcc & \process_0~8sexp_dataout\ & \Equal0~3sexp_dataout\ & \process_0~6sexp_dataout\ & \process_0~4sexp_dataout\ & NOT \O_rtl_2|dffs\(2) & NOT \O_rtl_2|dffs\(1) & \O_rtl_2|dffs\(0) & \O_rtl_2|dffs\(3) & \LessThan0~4_dataout\ & 
-\Add3~5_dataout\);
+& vcc & vcc & vcc & \process_0~8sexp_dataout\ & \Equal0~3sexp_dataout\ & \process_0~6sexp_dataout\ & \process_0~4sexp_dataout\ & O(3) & NOT O(2) & O(0) & NOT O(1) & \LessThan0~4_dataout\ & \Add3~5_dataout\);
 
 \O[5]_pterm5_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
 & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
@@ -1667,8 +2129,7 @@ gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
 \O[6]_pterm4_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
-& vcc & vcc & vcc & \process_0~8sexp_dataout\ & \Equal0~3sexp_dataout\ & \process_0~6sexp_dataout\ & \process_0~4sexp_dataout\ & NOT \O_rtl_2|dffs\(2) & NOT \O_rtl_2|dffs\(1) & \O_rtl_2|dffs\(0) & \O_rtl_2|dffs\(3) & \LessThan0~4_dataout\ & 
-\Add3~9_dataout\);
+& vcc & vcc & vcc & \process_0~8sexp_dataout\ & \Equal0~3sexp_dataout\ & \process_0~6sexp_dataout\ & \process_0~4sexp_dataout\ & O(3) & NOT O(2) & O(0) & NOT O(1) & \LessThan0~4_dataout\ & \Add3~9_dataout\);
 
 \O[6]_pterm5_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
 & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
@@ -1734,7 +2195,7 @@ gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gn
 & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
 \O[7]_pterm4_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
-& vcc & vcc & vcc & \process_0~11_dataout\ & \Equal0~4_dataout\ & \process_0~10_dataout\ & \process_0~9_dataout\ & NOT \O_rtl_2|dffs\(2) & NOT \O_rtl_2|dffs\(1) & \O_rtl_2|dffs\(0) & \O_rtl_2|dffs\(3) & \LessThan0~4_dataout\ & \Add3~13_dataout\);
+& vcc & vcc & vcc & \process_0~11_dataout\ & \Equal0~4_dataout\ & \process_0~10_dataout\ & \process_0~9_dataout\ & O(3) & NOT O(2) & O(0) & NOT O(1) & \LessThan0~4_dataout\ & \Add3~13_dataout\);
 
 \O[7]_pterm5_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
 & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
@@ -1758,8 +2219,7 @@ gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
 \O_rtl_1|dffs[0]_pterm1_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-vcc & vcc & \process_0~14_dataout\ & \Equal0~5_dataout\ & \process_0~13_dataout\ & O(7) & NOT O(6) & NOT O(5) & O(4) & \O_rtl_2|dffs\(0) & NOT \O_rtl_2|dffs\(1) & NOT \O_rtl_2|dffs\(2) & \O_rtl_2|dffs\(3) & \LessThan0~4_dataout\ & NOT 
-\O_rtl_1|dffs\(0));
+vcc & vcc & \process_0~14_dataout\ & \Equal0~5_dataout\ & \process_0~13_dataout\ & O(7) & NOT O(6) & NOT O(5) & O(4) & O(3) & NOT O(2) & NOT O(1) & O(0) & \LessThan0~4_dataout\ & NOT \O_rtl_1|dffs\(0));
 
 \O_rtl_1|dffs[0]_pterm2_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
 vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & \process_0~14_dataout\ & \Equal0~5_dataout\ & \process_0~13_dataout\ & \process_0~12_dataout\ & \O_rtl_1|dffs\(0));
@@ -1795,8 +2255,7 @@ vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & NO
 vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & \process_0~14_dataout\ & \Equal0~5_dataout\ & \process_0~13_dataout\ & \O_rtl_1|dffs\(1) & NOT \O_rtl_1|dffs\(0));
 
 \O_rtl_1|dffs[1]_pterm2_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-vcc & \process_0~14_dataout\ & \Equal0~5_dataout\ & \process_0~13_dataout\ & O(7) & NOT O(6) & NOT O(5) & O(4) & \O_rtl_2|dffs\(0) & NOT \O_rtl_2|dffs\(1) & NOT \O_rtl_2|dffs\(2) & \O_rtl_2|dffs\(3) & \LessThan0~4_dataout\ & NOT 
-\O_rtl_1|dffs\(1) & \O_rtl_1|dffs\(0));
+vcc & \process_0~14_dataout\ & \Equal0~5_dataout\ & \process_0~13_dataout\ & O(7) & NOT O(6) & NOT O(5) & O(4) & O(3) & NOT O(2) & NOT O(1) & O(0) & \LessThan0~4_dataout\ & NOT \O_rtl_1|dffs\(1) & \O_rtl_1|dffs\(0));
 
 \O_rtl_1|dffs[1]_pterm3_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
 gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
@@ -1826,8 +2285,7 @@ gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gn
 gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
 \O_rtl_1|dffs[2]_pterm1_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-vcc & \process_0~14_dataout\ & \Equal0~5_dataout\ & \process_0~13_dataout\ & O(7) & NOT O(6) & NOT O(5) & O(4) & \O_rtl_2|dffs\(0) & NOT \O_rtl_2|dffs\(1) & NOT \O_rtl_2|dffs\(2) & \O_rtl_2|dffs\(3) & \LessThan0~4_dataout\ & 
-\O_rtl_1|dffs\(0) & \O_rtl_1|dffs\(1));
+vcc & \process_0~14_dataout\ & \Equal0~5_dataout\ & \process_0~13_dataout\ & O(7) & NOT O(6) & NOT O(5) & O(4) & O(3) & NOT O(2) & NOT O(1) & O(0) & \LessThan0~4_dataout\ & \O_rtl_1|dffs\(0) & \O_rtl_1|dffs\(1));
 
 \O_rtl_1|dffs[2]_pterm2_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & NOT 
 \cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9) & NOT \cnt_rtl_0|dffs\(10) & NOT 
@@ -1861,12 +2319,10 @@ gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gn
 gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
 \O_rtl_1|dffs[3]_pterm1_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-\process_0~14_dataout\ & \Equal0~5_dataout\ & \process_0~13_dataout\ & O(7) & NOT O(6) & NOT O(5) & O(4) & \O_rtl_2|dffs\(0) & NOT \O_rtl_2|dffs\(1) & NOT \O_rtl_2|dffs\(2) & \O_rtl_2|dffs\(3) & \LessThan0~4_dataout\ & \O_rtl_1|dffs\(2)
-& \O_rtl_1|dffs\(0) & \O_rtl_1|dffs\(1));
+\process_0~14_dataout\ & \Equal0~5_dataout\ & \process_0~13_dataout\ & O(7) & NOT O(6) & NOT O(5) & O(4) & O(3) & NOT O(2) & NOT O(1) & O(0) & \LessThan0~4_dataout\ & \O_rtl_1|dffs\(2) & \O_rtl_1|dffs\(0) & \O_rtl_1|dffs\(1));
 
 \O_rtl_1|dffs[3]_pterm2_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-vcc & vcc & O(7) & NOT O(6) & NOT O(5) & O(4) & \O_rtl_2|dffs\(0) & NOT \O_rtl_2|dffs\(1) & NOT \O_rtl_2|dffs\(2) & \O_rtl_2|dffs\(3) & \O_rtl_1|dffs\(3) & \LessThan0~4_dataout\ & NOT \O_rtl_1|dffs\(2) & \O_rtl_1|dffs\(0) & NOT 
-\O_rtl_1|dffs\(1));
+vcc & vcc & O(7) & NOT O(6) & NOT O(5) & O(4) & O(3) & NOT O(2) & NOT O(1) & O(0) & \O_rtl_1|dffs\(3) & \LessThan0~4_dataout\ & NOT \O_rtl_1|dffs\(2) & \O_rtl_1|dffs\(0) & NOT \O_rtl_1|dffs\(1));
 
 \O_rtl_1|dffs[3]_pterm3_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
 gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
@@ -1897,8 +2353,7 @@ gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gn
 gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
 \O_rtl_0|dffs[0]_pterm1_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-\Equal0~5_dataout\ & O(7) & NOT O(6) & NOT O(5) & O(4) & \O_rtl_2|dffs\(0) & NOT \O_rtl_2|dffs\(1) & NOT \O_rtl_2|dffs\(2) & \O_rtl_2|dffs\(3) & \O_rtl_1|dffs\(0) & NOT \O_rtl_1|dffs\(1) & NOT \O_rtl_1|dffs\(2) & \O_rtl_1|dffs\(3)
-& NOT \O_rtl_0|dffs\(0) & \LessThan0~4_dataout\);
+\Equal0~5_dataout\ & O(7) & NOT O(6) & NOT O(5) & O(4) & O(3) & NOT O(2) & NOT O(1) & O(0) & \O_rtl_1|dffs\(0) & NOT \O_rtl_1|dffs\(1) & NOT \O_rtl_1|dffs\(2) & \O_rtl_1|dffs\(3) & NOT \O_rtl_0|dffs\(0) & \LessThan0~4_dataout\);
 
 \O_rtl_0|dffs[0]_pterm2_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
 vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & \O_rtl_0|dffs\(0) & NOT \LessThan0~4_dataout\);
@@ -1931,8 +2386,8 @@ gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gn
 gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
 \O_rtl_0|dffs[1]_pterm1_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-\process_0~14_dataout\ & \Equal0~5_dataout\ & O(7) & NOT O(6) & NOT O(5) & O(4) & \O_rtl_2|dffs\(0) & NOT \O_rtl_2|dffs\(1) & NOT \O_rtl_2|dffs\(2) & \O_rtl_2|dffs\(3) & \O_rtl_1|dffs\(0) & NOT \O_rtl_1|dffs\(1) & NOT 
-\O_rtl_1|dffs\(2) & \O_rtl_1|dffs\(3) & \LessThan0~4_dataout\ & \O_rtl_0|dffs\(0));
+\process_0~14_dataout\ & \Equal0~5_dataout\ & O(7) & NOT O(6) & NOT O(5) & O(4) & O(3) & NOT O(2) & NOT O(1) & O(0) & \O_rtl_1|dffs\(0) & NOT \O_rtl_1|dffs\(1) & NOT \O_rtl_1|dffs\(2) & \O_rtl_1|dffs\(3) & \LessThan0~4_dataout\ & 
+\O_rtl_0|dffs\(0));
 
 \O_rtl_0|dffs[1]_pterm2_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & NOT 
 \cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9) & NOT \cnt_rtl_0|dffs\(10) & NOT 
@@ -1966,7 +2421,7 @@ gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gn
 & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
 \Selector2~9_pterm1_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
-& vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & \Q.state_bit_1~dataout\ & \Q.state_bit_0~dataout\ & \O_rtl_2|dffs\(1));
+& vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & \Q.state_bit_1~dataout\ & \Q.state_bit_0~dataout\ & O(1));
 
 \Selector2~9_pterm2_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
 & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & O(5) & \Q.state_bit_1~dataout\ & NOT \Q.state_bit_0~dataout\);
@@ -1999,8 +2454,8 @@ vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vc
 gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
 \O_rtl_0|dffs[2]_pterm1_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-\process_0~14_dataout\ & \Equal0~5_dataout\ & O(7) & NOT O(6) & NOT O(5) & O(4) & \O_rtl_2|dffs\(0) & NOT \O_rtl_2|dffs\(1) & NOT \O_rtl_2|dffs\(2) & \O_rtl_2|dffs\(3) & \O_rtl_1|dffs\(0) & NOT \O_rtl_1|dffs\(1) & NOT 
-\O_rtl_1|dffs\(2) & \O_rtl_1|dffs\(3) & \LessThan0~4_dataout\ & \O_rtl_0|dffs\(0) & \O_rtl_0|dffs\(1));
+\process_0~14_dataout\ & \Equal0~5_dataout\ & O(7) & NOT O(6) & NOT O(5) & O(4) & O(3) & NOT O(2) & NOT O(1) & O(0) & \O_rtl_1|dffs\(0) & NOT \O_rtl_1|dffs\(1) & NOT \O_rtl_1|dffs\(2) & \O_rtl_1|dffs\(3) & \LessThan0~4_dataout\ & 
+\O_rtl_0|dffs\(0) & \O_rtl_0|dffs\(1));
 
 \O_rtl_0|dffs[2]_pterm2_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & NOT 
 \cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9) & NOT \cnt_rtl_0|dffs\(10) & NOT 
@@ -2034,7 +2489,7 @@ gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gn
 & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
 \Selector1~9_pterm1_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
-& vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & \Q.state_bit_1~dataout\ & \Q.state_bit_0~dataout\ & \O_rtl_2|dffs\(2));
+& vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & \Q.state_bit_1~dataout\ & \Q.state_bit_0~dataout\ & O(2));
 
 \Selector1~9_pterm2_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
 & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & O(6) & \Q.state_bit_1~dataout\ & NOT \Q.state_bit_0~dataout\);
@@ -2067,8 +2522,8 @@ vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vc
 gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
 \O_rtl_0|dffs[3]_pterm1_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-\process_0~14_dataout\ & \Equal0~5_dataout\ & O(7) & NOT O(6) & NOT O(5) & O(4) & \O_rtl_2|dffs\(0) & NOT \O_rtl_2|dffs\(1) & NOT \O_rtl_2|dffs\(2) & \O_rtl_2|dffs\(3) & \O_rtl_1|dffs\(0) & NOT \O_rtl_1|dffs\(1) & NOT 
-\O_rtl_1|dffs\(2) & \O_rtl_1|dffs\(3) & \LessThan0~4_dataout\ & \O_rtl_0|dffs\(2) & \O_rtl_0|dffs\(0) & \O_rtl_0|dffs\(1));
+\process_0~14_dataout\ & \Equal0~5_dataout\ & O(7) & NOT O(6) & NOT O(5) & O(4) & O(3) & NOT O(2) & NOT O(1) & O(0) & \O_rtl_1|dffs\(0) & NOT \O_rtl_1|dffs\(1) & NOT \O_rtl_1|dffs\(2) & \O_rtl_1|dffs\(3) & \LessThan0~4_dataout\ & 
+\O_rtl_0|dffs\(2) & \O_rtl_0|dffs\(0) & \O_rtl_0|dffs\(1));
 
 \O_rtl_0|dffs[3]_pterm2_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & NOT 
 \cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9) & NOT \cnt_rtl_0|dffs\(10) & NOT 
@@ -2078,8 +2533,8 @@ gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gn
 gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
 \O_rtl_0|dffs[3]_pterm4_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & O(7) & 
-NOT O(6) & NOT O(5) & O(4) & \O_rtl_2|dffs\(0) & NOT \O_rtl_2|dffs\(1) & NOT \O_rtl_2|dffs\(2) & \O_rtl_2|dffs\(3) & \O_rtl_1|dffs\(0) & NOT \O_rtl_1|dffs\(1) & NOT \O_rtl_1|dffs\(2) & \O_rtl_1|dffs\(3) & \O_rtl_0|dffs\(3) & 
-\LessThan0~4_dataout\ & NOT \O_rtl_0|dffs\(2) & \O_rtl_0|dffs\(0) & NOT \O_rtl_0|dffs\(1));
+NOT O(6) & NOT O(5) & O(4) & O(3) & NOT O(2) & NOT O(1) & O(0) & \O_rtl_1|dffs\(0) & NOT \O_rtl_1|dffs\(1) & NOT \O_rtl_1|dffs\(2) & \O_rtl_1|dffs\(3) & \O_rtl_0|dffs\(3) & \LessThan0~4_dataout\ & NOT \O_rtl_0|dffs\(2) & 
+\O_rtl_0|dffs\(0) & NOT \O_rtl_0|dffs\(1));
 
 \O_rtl_0|dffs[3]_pterm5_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
 gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
@@ -2103,7 +2558,7 @@ gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gn
 & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
 \Selector0~9_pterm1_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
-& vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & \Q.state_bit_1~dataout\ & \Q.state_bit_0~dataout\ & \O_rtl_2|dffs\(3));
+& vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & \Q.state_bit_1~dataout\ & \Q.state_bit_0~dataout\ & O(3));
 
 \Selector0~9_pterm2_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
 & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & O(7) & \Q.state_bit_1~dataout\ & NOT \Q.state_bit_0~dataout\);
@@ -2146,8 +2601,8 @@ gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gn
 
 \OVERFLOW~reg0_pterm4_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & NOT \cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & 
 NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9) & NOT \cnt_rtl_0|dffs\(10) & NOT \cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & 
-O(7) & NOT O(6) & NOT O(5) & O(4) & \O_rtl_2|dffs\(0) & NOT \O_rtl_2|dffs\(1) & NOT \O_rtl_2|dffs\(2) & \O_rtl_2|dffs\(3) & \O_rtl_1|dffs\(0) & NOT \O_rtl_1|dffs\(1) & NOT \O_rtl_1|dffs\(2) & \O_rtl_1|dffs\(3) & \O_rtl_0|dffs\(0)
-& NOT \O_rtl_0|dffs\(1) & NOT \O_rtl_0|dffs\(2) & \O_rtl_0|dffs\(3) & \OVERFLOW~4_dataout\);
+O(7) & NOT O(6) & NOT O(5) & O(4) & O(3) & NOT O(2) & NOT O(1) & O(0) & \O_rtl_1|dffs\(0) & NOT \O_rtl_1|dffs\(1) & NOT \O_rtl_1|dffs\(2) & \O_rtl_1|dffs\(3) & \O_rtl_0|dffs\(0) & NOT \O_rtl_0|dffs\(1) & NOT \O_rtl_0|dffs\(2)
+& \O_rtl_0|dffs\(3) & \OVERFLOW~4_dataout\);
 
 \OVERFLOW~reg0_pterm5_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
 gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
@@ -2180,7 +2635,7 @@ gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gn
 & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
 \O[4]_pterm4_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
-& vcc & vcc & vcc & \process_0~14_dataout\ & \Equal0~5_dataout\ & \process_0~13_dataout\ & \process_0~12_dataout\ & NOT \O_rtl_2|dffs\(2) & NOT \O_rtl_2|dffs\(1) & \O_rtl_2|dffs\(0) & \O_rtl_2|dffs\(3) & NOT O(4) & \LessThan0~4_dataout\);
+& vcc & vcc & vcc & \process_0~14_dataout\ & \Equal0~5_dataout\ & \process_0~13_dataout\ & \process_0~12_dataout\ & O(3) & NOT O(2) & O(0) & NOT O(1) & NOT O(4) & \LessThan0~4_dataout\);
 
 \O[4]_pterm5_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
 & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
@@ -2204,7 +2659,7 @@ gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
 \Selector3~9_pterm1_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
-& vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & \Q.state_bit_1~dataout\ & \Q.state_bit_0~dataout\ & \O_rtl_2|dffs\(0));
+& vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & \Q.state_bit_1~dataout\ & \Q.state_bit_0~dataout\ & O(0));
 
 \Selector3~9_pterm2_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
 & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & O(4) & \Q.state_bit_1~dataout\ & NOT \Q.state_bit_0~dataout\);
@@ -2233,75 +2688,75 @@ vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vc
 \Selector3~9_papre_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
 & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[1]~43_pterm0_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
-& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[1]~89_pterm0_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[1]~43_pterm1_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-NOT \cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9) & NOT \cnt_rtl_0|dffs\(10) & 
-NOT \cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & NOT \cnt_rtl_0|dffs\(0) & \cnt_rtl_0|dffs\(1) & \O_rtl_2|dffs\(0) & NOT \O_rtl_2|dffs\(3));
+\O[1]~89_pterm1_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & NOT 
+O(1) & NOT \cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9) & NOT 
+\cnt_rtl_0|dffs\(10) & NOT \cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & NOT \cnt_rtl_0|dffs\(0) & NOT \cnt_rtl_0|dffs\(1));
 
-\O_rtl_2|dffs[1]~43_pterm2_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-NOT \cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9) & NOT \cnt_rtl_0|dffs\(10) & 
-NOT \cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & \cnt_rtl_0|dffs\(0) & NOT \cnt_rtl_0|dffs\(1) & \O_rtl_2|dffs\(0) & NOT \O_rtl_2|dffs\(3));
+\O[1]~89_pterm2_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & O(0) & 
+O(2) & NOT O(1) & NOT \cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9) & NOT 
+\cnt_rtl_0|dffs\(10) & NOT \cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & NOT \cnt_rtl_0|dffs\(1));
 
-\O_rtl_2|dffs[1]~43_pterm3_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-\O_rtl_2|dffs\(2) & NOT \cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9) & NOT 
-\cnt_rtl_0|dffs\(10) & NOT \cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & NOT \cnt_rtl_0|dffs\(0) & \cnt_rtl_0|dffs\(1) & \O_rtl_2|dffs\(0));
+\O[1]~89_pterm3_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & O(0) & 
+O(2) & NOT O(1) & NOT \cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9) & NOT 
+\cnt_rtl_0|dffs\(10) & NOT \cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & NOT \cnt_rtl_0|dffs\(0));
 
-\O_rtl_2|dffs[1]~43_pterm4_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
-& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[1]~89_pterm4_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[1]~43_pterm5_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
-& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[1]~89_pterm5_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[1]~43_pxor_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
-& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[1]~89_pxor_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[1]~43_pclk_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
-& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[1]~89_pclk_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[1]~43_pena_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
-& vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc);
+\O[1]~89_pena_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
+& vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc);
 
-\O_rtl_2|dffs[1]~43_paclr_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
-& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[1]~89_paclr_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[1]~43_papre_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
-& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[1]~89_papre_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[3]~47_pterm0_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
-& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[3]~93_pterm0_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[3]~47_pterm1_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & NOT 
-\cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(0) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9) & NOT 
-\cnt_rtl_0|dffs\(10) & NOT \cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & \O_rtl_2|dffs\(2) & \O_rtl_2|dffs\(1) & \O_rtl_2|dffs\(0) & \cnt_rtl_0|dffs\(1));
+\O[3]~93_pterm1_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & NOT 
+\cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9) & NOT \cnt_rtl_0|dffs\(10) & NOT 
+\cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & NOT \cnt_rtl_0|dffs\(0) & \cnt_rtl_0|dffs\(1) & O(1) & O(0) & O(2));
 
-\O_rtl_2|dffs[3]~47_pterm2_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
-& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[3]~93_pterm2_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[3]~47_pterm3_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
-& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[3]~93_pterm3_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[3]~47_pterm4_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
-& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[3]~93_pterm4_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[3]~47_pterm5_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
-& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[3]~93_pterm5_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & 
+gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[3]~47_pxor_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
-& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[3]~93_pxor_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[3]~47_pclk_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
-& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[3]~93_pclk_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[3]~47_pena_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
-& vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc);
+\O[3]~93_pena_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
+& vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc);
 
-\O_rtl_2|dffs[3]~47_paclr_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
-& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[3]~93_paclr_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
-\O_rtl_2|dffs[3]~47_papre_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
-& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
+\O[3]~93_papre_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
+& gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
 
 \~VCC~0_pterm0_bus\ <= (gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd
 & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd & gnd);
@@ -2344,55 +2799,55 @@ NOT \cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) &
 & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & \cnt_rtl_0|dffs\(0) & \cnt_rtl_0|dffs\(1));
 
 \C[0]~1sexpand0_datain_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & \O_rtl_2|dffs\(0) & NOT \O_rtl_2|dffs\(1) & NOT \O_rtl_2|dffs\(2) & \O_rtl_2|dffs\(3));
+vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & O(3) & NOT O(2) & NOT O(1) & O(0));
 
 \process_0~4sexp_datain_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-vcc & vcc & vcc & vcc & vcc & vcc & vcc & O(7) & NOT O(6) & NOT O(5) & O(4) & \O_rtl_2|dffs\(0) & NOT \O_rtl_2|dffs\(1) & NOT \O_rtl_2|dffs\(2) & \O_rtl_2|dffs\(3));
+vcc & vcc & vcc & vcc & vcc & vcc & vcc & O(7) & NOT O(6) & NOT O(5) & O(4) & O(3) & NOT O(2) & NOT O(1) & O(0));
 
 \process_0~6sexp_datain_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
-vcc & vcc & vcc & O(7) & NOT O(6) & NOT O(5) & O(4) & \O_rtl_2|dffs\(0) & NOT \O_rtl_2|dffs\(1) & NOT \O_rtl_2|dffs\(2) & \O_rtl_2|dffs\(3) & \O_rtl_1|dffs\(0) & NOT \O_rtl_1|dffs\(1) & NOT \O_rtl_1|dffs\(2) & \O_rtl_1|dffs\(3));
+vcc & vcc & vcc & O(7) & NOT O(6) & NOT O(5) & O(4) & O(3) & NOT O(2) & NOT O(1) & O(0) & \O_rtl_1|dffs\(0) & NOT \O_rtl_1|dffs\(1) & NOT \O_rtl_1|dffs\(2) & \O_rtl_1|dffs\(3));
 
 \Equal0~3sexp_datain_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
 & NOT \cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9) & NOT \cnt_rtl_0|dffs\(10) & 
 NOT \cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & NOT \cnt_rtl_0|dffs\(0) & NOT \cnt_rtl_0|dffs\(1));
 
 \process_0~8sexp_datain_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & O(7)
-& NOT O(6) & NOT O(5) & O(4) & \O_rtl_2|dffs\(0) & NOT \O_rtl_2|dffs\(1) & NOT \O_rtl_2|dffs\(2) & \O_rtl_2|dffs\(3) & \O_rtl_1|dffs\(0) & NOT \O_rtl_1|dffs\(1) & NOT \O_rtl_1|dffs\(2) & \O_rtl_1|dffs\(3) & \O_rtl_0|dffs\(0) & NOT 
-\O_rtl_0|dffs\(1) & NOT \O_rtl_0|dffs\(2) & \O_rtl_0|dffs\(3));
+& NOT O(6) & NOT O(5) & O(4) & O(3) & NOT O(2) & NOT O(1) & O(0) & \O_rtl_1|dffs\(0) & NOT \O_rtl_1|dffs\(1) & NOT \O_rtl_1|dffs\(2) & \O_rtl_1|dffs\(3) & \O_rtl_0|dffs\(0) & NOT \O_rtl_0|dffs\(1) & NOT \O_rtl_0|dffs\(2) & 
+\O_rtl_0|dffs\(3));
 
 \C[0]~2_datain_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
-& vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & \O_rtl_2|dffs\(0) & NOT \O_rtl_2|dffs\(1) & NOT \O_rtl_2|dffs\(2) & \O_rtl_2|dffs\(3));
+& vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & O(3) & NOT O(2) & NOT O(1) & O(0));
 
 \process_0~9_datain_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
-& vcc & vcc & vcc & vcc & vcc & vcc & O(7) & NOT O(6) & NOT O(5) & O(4) & \O_rtl_2|dffs\(0) & NOT \O_rtl_2|dffs\(1) & NOT \O_rtl_2|dffs\(2) & \O_rtl_2|dffs\(3));
+& vcc & vcc & vcc & vcc & vcc & vcc & O(7) & NOT O(6) & NOT O(5) & O(4) & O(3) & NOT O(2) & NOT O(1) & O(0));
 
 \process_0~10_datain_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
-& vcc & vcc & O(7) & NOT O(6) & NOT O(5) & O(4) & \O_rtl_2|dffs\(0) & NOT \O_rtl_2|dffs\(1) & NOT \O_rtl_2|dffs\(2) & \O_rtl_2|dffs\(3) & \O_rtl_1|dffs\(0) & NOT \O_rtl_1|dffs\(1) & NOT \O_rtl_1|dffs\(2) & \O_rtl_1|dffs\(3));
+& vcc & vcc & O(7) & NOT O(6) & NOT O(5) & O(4) & O(3) & NOT O(2) & NOT O(1) & O(0) & \O_rtl_1|dffs\(0) & NOT \O_rtl_1|dffs\(1) & NOT \O_rtl_1|dffs\(2) & \O_rtl_1|dffs\(3));
 
 \Equal0~4_datain_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
 NOT \cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9) & NOT \cnt_rtl_0|dffs\(10) & 
 NOT \cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & NOT \cnt_rtl_0|dffs\(0) & NOT \cnt_rtl_0|dffs\(1));
 
 \process_0~11_datain_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & O(7) & 
-NOT O(6) & NOT O(5) & O(4) & \O_rtl_2|dffs\(0) & NOT \O_rtl_2|dffs\(1) & NOT \O_rtl_2|dffs\(2) & \O_rtl_2|dffs\(3) & \O_rtl_1|dffs\(0) & NOT \O_rtl_1|dffs\(1) & NOT \O_rtl_1|dffs\(2) & \O_rtl_1|dffs\(3) & \O_rtl_0|dffs\(0) & NOT 
-\O_rtl_0|dffs\(1) & NOT \O_rtl_0|dffs\(2) & \O_rtl_0|dffs\(3));
+NOT O(6) & NOT O(5) & O(4) & O(3) & NOT O(2) & NOT O(1) & O(0) & \O_rtl_1|dffs\(0) & NOT \O_rtl_1|dffs\(1) & NOT \O_rtl_1|dffs\(2) & \O_rtl_1|dffs\(3) & \O_rtl_0|dffs\(0) & NOT \O_rtl_0|dffs\(1) & NOT \O_rtl_0|dffs\(2) & 
+\O_rtl_0|dffs\(3));
 
 \process_0~12_datain_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
-& vcc & vcc & vcc & vcc & vcc & vcc & O(7) & NOT O(6) & NOT O(5) & O(4) & \O_rtl_2|dffs\(0) & NOT \O_rtl_2|dffs\(1) & NOT \O_rtl_2|dffs\(2) & \O_rtl_2|dffs\(3));
+& vcc & vcc & vcc & vcc & vcc & vcc & O(7) & NOT O(6) & NOT O(5) & O(4) & O(3) & NOT O(2) & NOT O(1) & O(0));
 
 \process_0~13_datain_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
-& vcc & vcc & O(7) & NOT O(6) & NOT O(5) & O(4) & \O_rtl_2|dffs\(0) & NOT \O_rtl_2|dffs\(1) & NOT \O_rtl_2|dffs\(2) & \O_rtl_2|dffs\(3) & \O_rtl_1|dffs\(0) & NOT \O_rtl_1|dffs\(1) & NOT \O_rtl_1|dffs\(2) & \O_rtl_1|dffs\(3));
+& vcc & vcc & O(7) & NOT O(6) & NOT O(5) & O(4) & O(3) & NOT O(2) & NOT O(1) & O(0) & \O_rtl_1|dffs\(0) & NOT \O_rtl_1|dffs\(1) & NOT \O_rtl_1|dffs\(2) & \O_rtl_1|dffs\(3));
 
 \Equal0~5_datain_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & 
 NOT \cnt_rtl_0|dffs\(2) & NOT \cnt_rtl_0|dffs\(3) & NOT \cnt_rtl_0|dffs\(4) & NOT \cnt_rtl_0|dffs\(5) & NOT \cnt_rtl_0|dffs\(6) & NOT \cnt_rtl_0|dffs\(7) & NOT \cnt_rtl_0|dffs\(8) & NOT \cnt_rtl_0|dffs\(9) & NOT \cnt_rtl_0|dffs\(10) & 
 NOT \cnt_rtl_0|dffs\(11) & NOT \cnt_rtl_0|dffs\(12) & NOT \cnt_rtl_0|dffs\(13) & NOT \cnt_rtl_0|dffs\(0) & NOT \cnt_rtl_0|dffs\(1));
 
 \process_0~14_datain_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & O(7) & 
-NOT O(6) & NOT O(5) & O(4) & \O_rtl_2|dffs\(0) & NOT \O_rtl_2|dffs\(1) & NOT \O_rtl_2|dffs\(2) & \O_rtl_2|dffs\(3) & \O_rtl_1|dffs\(0) & NOT \O_rtl_1|dffs\(1) & NOT \O_rtl_1|dffs\(2) & \O_rtl_1|dffs\(3) & \O_rtl_0|dffs\(0) & NOT 
-\O_rtl_0|dffs\(1) & NOT \O_rtl_0|dffs\(2) & \O_rtl_0|dffs\(3));
+NOT O(6) & NOT O(5) & O(4) & O(3) & NOT O(2) & NOT O(1) & O(0) & \O_rtl_1|dffs\(0) & NOT \O_rtl_1|dffs\(1) & NOT \O_rtl_1|dffs\(2) & \O_rtl_1|dffs\(3) & \O_rtl_0|dffs\(0) & NOT \O_rtl_0|dffs\(1) & NOT \O_rtl_0|dffs\(2) & 
+\O_rtl_0|dffs\(3));
 
 \C[0]~3_datain_bus\ <= (vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc
-& vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & \O_rtl_2|dffs\(0) & NOT \O_rtl_2|dffs\(1) & NOT \O_rtl_2|dffs\(2) & \O_rtl_2|dffs\(3));
+& vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & vcc & O(3) & NOT O(2) & NOT O(1) & O(0));
 ALT_INV_O(4) <= NOT O(4);
 \O_rtl_0|ALT_INV_dffs\(2) <= NOT \O_rtl_0|dffs\(2);
 \O_rtl_0|ALT_INV_dffs\(1) <= NOT \O_rtl_0|dffs\(1);
@@ -2403,12 +2858,12 @@ ALT_INV_O(4) <= NOT O(4);
 ALT_INV_O(6) <= NOT O(6);
 ALT_INV_O(5) <= NOT O(5);
 \ALT_INV_LessThan0~4_dataout\ <= NOT \LessThan0~4_dataout\;
-\O_rtl_2|ALT_INV_dffs\(3) <= NOT \O_rtl_2|dffs\(3);
-\O_rtl_2|ALT_INV_dffs\(2) <= NOT \O_rtl_2|dffs\(2);
-\O_rtl_2|ALT_INV_dffs\(1) <= NOT \O_rtl_2|dffs\(1);
+ALT_INV_O(3) <= NOT O(3);
+ALT_INV_O(2) <= NOT O(2);
+ALT_INV_O(1) <= NOT O(1);
+ALT_INV_O(0) <= NOT O(0);
 \cnt_rtl_0|ALT_INV_dffs\(1) <= NOT \cnt_rtl_0|dffs\(1);
 \cnt_rtl_0|ALT_INV_dffs\(0) <= NOT \cnt_rtl_0|dffs\(0);
-\ALT_INV_Q.state_bit_1~dataout\ <= NOT \Q.state_bit_1~dataout\;
 \cnt_rtl_0|ALT_INV_dffs\(2) <= NOT \cnt_rtl_0|dffs\(2);
 \cnt_rtl_0|ALT_INV_dffs\(3) <= NOT \cnt_rtl_0|dffs\(3);
 \cnt_rtl_0|ALT_INV_dffs\(4) <= NOT \cnt_rtl_0|dffs\(4);
@@ -2421,7 +2876,11 @@ ALT_INV_O(5) <= NOT O(5);
 \cnt_rtl_0|ALT_INV_dffs\(11) <= NOT \cnt_rtl_0|dffs\(11);
 \cnt_rtl_0|ALT_INV_dffs\(12) <= NOT \cnt_rtl_0|dffs\(12);
 \cnt_rtl_0|ALT_INV_dffs\(13) <= NOT \cnt_rtl_0|dffs\(13);
+\ALT_INV_Q.state_bit_1~dataout\ <= NOT \Q.state_bit_1~dataout\;
 \ALT_INV_Q.state_bit_0~dataout\ <= NOT \Q.state_bit_0~dataout\;
+\ALT_INV_process_1:CNT[0]~dataout\ <= NOT \process_1:CNT[0]~dataout\;
+\ALT_INV_process_1:CNT[3]~dataout\ <= NOT \process_1:CNT[3]~dataout\;
+\ALT_INV_process_1:CNT[1]~dataout\ <= NOT \process_1:CNT[1]~dataout\;
 
 -- Location: PIN_43
 \CLK~I\ : max_io
@@ -2459,13 +2918,238 @@ PORT MAP (
 	pena => \~VCC~0_pena_bus\,
 	dataout => \~VCC~0~dataout\);
 
--- Location: LC31
+-- Location: LC9
+\process_1:CNT[1]\ : max_mcell
+-- pragma translate_off
+GENERIC MAP (
+	operation_mode => "xor",
+	output_mode => "reg",
+	pexp_mode => "off",
+	power_up => "low",
+	register_mode => "dff")
+-- pragma translate_on
+PORT MAP (
+	clk => \CLK~dataout\,
+	pterm0 => \process_1:CNT[1]_pterm0_bus\,
+	pterm1 => \process_1:CNT[1]_pterm1_bus\,
+	pterm2 => \process_1:CNT[1]_pterm2_bus\,
+	pterm3 => \process_1:CNT[1]_pterm3_bus\,
+	pterm4 => \process_1:CNT[1]_pterm4_bus\,
+	pterm5 => \process_1:CNT[1]_pterm5_bus\,
+	pxor => \process_1:CNT[1]_pxor_bus\,
+	pclk => \process_1:CNT[1]_pclk_bus\,
+	papre => \process_1:CNT[1]_papre_bus\,
+	paclr => \process_1:CNT[1]_paclr_bus\,
+	pena => \process_1:CNT[1]_pena_bus\,
+	dataout => \process_1:CNT[1]~dataout\);
+
+-- Location: LC5
+\process_1:CNT[3]\ : max_mcell
+-- pragma translate_off
+GENERIC MAP (
+	operation_mode => "xor",
+	output_mode => "reg",
+	pexp_mode => "off",
+	power_up => "low",
+	register_mode => "dff")
+-- pragma translate_on
+PORT MAP (
+	clk => \CLK~dataout\,
+	pterm0 => \process_1:CNT[3]_pterm0_bus\,
+	pterm1 => \process_1:CNT[3]_pterm1_bus\,
+	pterm2 => \process_1:CNT[3]_pterm2_bus\,
+	pterm3 => \process_1:CNT[3]_pterm3_bus\,
+	pterm4 => \process_1:CNT[3]_pterm4_bus\,
+	pterm5 => \process_1:CNT[3]_pterm5_bus\,
+	pxor => \process_1:CNT[3]_pxor_bus\,
+	pclk => \process_1:CNT[3]_pclk_bus\,
+	papre => \process_1:CNT[3]_papre_bus\,
+	paclr => \process_1:CNT[3]_paclr_bus\,
+	pena => \process_1:CNT[3]_pena_bus\,
+	dataout => \process_1:CNT[3]~dataout\);
+
+-- Location: LC15
+\process_1:CNT[5]\ : max_mcell
+-- pragma translate_off
+GENERIC MAP (
+	operation_mode => "normal",
+	output_mode => "reg",
+	pexp_mode => "off",
+	power_up => "low",
+	register_mode => "tff")
+-- pragma translate_on
+PORT MAP (
+	clk => \CLK~dataout\,
+	pterm0 => \process_1:CNT[5]_pterm0_bus\,
+	pterm1 => \process_1:CNT[5]_pterm1_bus\,
+	pterm2 => \process_1:CNT[5]_pterm2_bus\,
+	pterm3 => \process_1:CNT[5]_pterm3_bus\,
+	pterm4 => \process_1:CNT[5]_pterm4_bus\,
+	pterm5 => \process_1:CNT[5]_pterm5_bus\,
+	pxor => \process_1:CNT[5]_pxor_bus\,
+	pclk => \process_1:CNT[5]_pclk_bus\,
+	papre => \process_1:CNT[5]_papre_bus\,
+	paclr => \process_1:CNT[5]_paclr_bus\,
+	pena => \process_1:CNT[5]_pena_bus\,
+	dataout => \process_1:CNT[5]~dataout\);
+
+-- Location: LC3
+\process_1:CNT[4]\ : max_mcell
+-- pragma translate_off
+GENERIC MAP (
+	operation_mode => "normal",
+	output_mode => "reg",
+	pexp_mode => "off",
+	power_up => "low",
+	register_mode => "tff")
+-- pragma translate_on
+PORT MAP (
+	clk => \CLK~dataout\,
+	pterm0 => \process_1:CNT[4]_pterm0_bus\,
+	pterm1 => \process_1:CNT[4]_pterm1_bus\,
+	pterm2 => \process_1:CNT[4]_pterm2_bus\,
+	pterm3 => \process_1:CNT[4]_pterm3_bus\,
+	pterm4 => \process_1:CNT[4]_pterm4_bus\,
+	pterm5 => \process_1:CNT[4]_pterm5_bus\,
+	pxor => \process_1:CNT[4]_pxor_bus\,
+	pclk => \process_1:CNT[4]_pclk_bus\,
+	papre => \process_1:CNT[4]_papre_bus\,
+	paclr => \process_1:CNT[4]_paclr_bus\,
+	pena => \process_1:CNT[4]_pena_bus\,
+	dataout => \process_1:CNT[4]~dataout\);
+
+-- Location: LC7
+\process_1:CNT[7]\ : max_mcell
+-- pragma translate_off
+GENERIC MAP (
+	operation_mode => "normal",
+	output_mode => "reg",
+	pexp_mode => "off",
+	power_up => "low",
+	register_mode => "tff")
+-- pragma translate_on
+PORT MAP (
+	clk => \CLK~dataout\,
+	pterm0 => \process_1:CNT[7]_pterm0_bus\,
+	pterm1 => \process_1:CNT[7]_pterm1_bus\,
+	pterm2 => \process_1:CNT[7]_pterm2_bus\,
+	pterm3 => \process_1:CNT[7]_pterm3_bus\,
+	pterm4 => \process_1:CNT[7]_pterm4_bus\,
+	pterm5 => \process_1:CNT[7]_pterm5_bus\,
+	pxor => \process_1:CNT[7]_pxor_bus\,
+	pclk => \process_1:CNT[7]_pclk_bus\,
+	papre => \process_1:CNT[7]_papre_bus\,
+	paclr => \process_1:CNT[7]_paclr_bus\,
+	pena => \process_1:CNT[7]_pena_bus\,
+	dataout => \process_1:CNT[7]~dataout\);
+
+-- Location: LC10
+\process_1:CNT[6]\ : max_mcell
+-- pragma translate_off
+GENERIC MAP (
+	operation_mode => "normal",
+	output_mode => "reg",
+	pexp_mode => "off",
+	power_up => "low",
+	register_mode => "tff")
+-- pragma translate_on
+PORT MAP (
+	clk => \CLK~dataout\,
+	pterm0 => \process_1:CNT[6]_pterm0_bus\,
+	pterm1 => \process_1:CNT[6]_pterm1_bus\,
+	pterm2 => \process_1:CNT[6]_pterm2_bus\,
+	pterm3 => \process_1:CNT[6]_pterm3_bus\,
+	pterm4 => \process_1:CNT[6]_pterm4_bus\,
+	pterm5 => \process_1:CNT[6]_pterm5_bus\,
+	pxor => \process_1:CNT[6]_pxor_bus\,
+	pclk => \process_1:CNT[6]_pclk_bus\,
+	papre => \process_1:CNT[6]_papre_bus\,
+	paclr => \process_1:CNT[6]_paclr_bus\,
+	pena => \process_1:CNT[6]_pena_bus\,
+	dataout => \process_1:CNT[6]~dataout\);
+
+-- Location: LC4
+\process_1:CNT[8]\ : max_mcell
+-- pragma translate_off
+GENERIC MAP (
+	operation_mode => "normal",
+	output_mode => "reg",
+	pexp_mode => "off",
+	power_up => "low",
+	register_mode => "tff")
+-- pragma translate_on
+PORT MAP (
+	clk => \CLK~dataout\,
+	pterm0 => \process_1:CNT[8]_pterm0_bus\,
+	pterm1 => \process_1:CNT[8]_pterm1_bus\,
+	pterm2 => \process_1:CNT[8]_pterm2_bus\,
+	pterm3 => \process_1:CNT[8]_pterm3_bus\,
+	pterm4 => \process_1:CNT[8]_pterm4_bus\,
+	pterm5 => \process_1:CNT[8]_pterm5_bus\,
+	pxor => \process_1:CNT[8]_pxor_bus\,
+	pclk => \process_1:CNT[8]_pclk_bus\,
+	papre => \process_1:CNT[8]_papre_bus\,
+	paclr => \process_1:CNT[8]_paclr_bus\,
+	pena => \process_1:CNT[8]_pena_bus\,
+	dataout => \process_1:CNT[8]~dataout\);
+
+-- Location: LC8
+\process_1:CNT[2]\ : max_mcell
+-- pragma translate_off
+GENERIC MAP (
+	operation_mode => "normal",
+	output_mode => "reg",
+	pexp_mode => "off",
+	power_up => "low",
+	register_mode => "tff")
+-- pragma translate_on
+PORT MAP (
+	clk => \CLK~dataout\,
+	pterm0 => \process_1:CNT[2]_pterm0_bus\,
+	pterm1 => \process_1:CNT[2]_pterm1_bus\,
+	pterm2 => \process_1:CNT[2]_pterm2_bus\,
+	pterm3 => \process_1:CNT[2]_pterm3_bus\,
+	pterm4 => \process_1:CNT[2]_pterm4_bus\,
+	pterm5 => \process_1:CNT[2]_pterm5_bus\,
+	pxor => \process_1:CNT[2]_pxor_bus\,
+	pclk => \process_1:CNT[2]_pclk_bus\,
+	papre => \process_1:CNT[2]_papre_bus\,
+	paclr => \process_1:CNT[2]_paclr_bus\,
+	pena => \process_1:CNT[2]_pena_bus\,
+	dataout => \process_1:CNT[2]~dataout\);
+
+-- Location: LC16
+\process_1:CNT[0]\ : max_mcell
+-- pragma translate_off
+GENERIC MAP (
+	operation_mode => "invert",
+	output_mode => "reg",
+	pexp_mode => "off",
+	power_up => "low",
+	register_mode => "tff")
+-- pragma translate_on
+PORT MAP (
+	clk => \CLK~dataout\,
+	pterm0 => \process_1:CNT[0]_pterm0_bus\,
+	pterm1 => \process_1:CNT[0]_pterm1_bus\,
+	pterm2 => \process_1:CNT[0]_pterm2_bus\,
+	pterm3 => \process_1:CNT[0]_pterm3_bus\,
+	pterm4 => \process_1:CNT[0]_pterm4_bus\,
+	pterm5 => \process_1:CNT[0]_pterm5_bus\,
+	pxor => \process_1:CNT[0]_pxor_bus\,
+	pclk => \process_1:CNT[0]_pclk_bus\,
+	papre => \process_1:CNT[0]_papre_bus\,
+	paclr => \process_1:CNT[0]_paclr_bus\,
+	pena => \process_1:CNT[0]_pena_bus\,
+	dataout => \process_1:CNT[0]~dataout\);
+
+-- Location: LC6
 \Q.state_bit_0\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
-	operation_mode => "vcc",
+	operation_mode => "normal",
 	output_mode => "reg",
-	pexp_mode => "on",
+	pexp_mode => "off",
 	power_up => "low",
 	register_mode => "tff")
 -- pragma translate_on
@@ -2488,7 +3172,7 @@ PORT MAP (
 \Q.state_bit_1\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
-	operation_mode => "invert",
+	operation_mode => "normal",
 	output_mode => "reg",
 	pexp_mode => "off",
 	power_up => "low",
@@ -2597,7 +3281,32 @@ PORT MAP (
 	pena => \Q.S0~3_pena_bus\,
 	dataout => \Q.S0~3_dataout\);
 
--- Location: LC10
+-- Location: LC12
+CNT_CLK : max_mcell
+-- pragma translate_off
+GENERIC MAP (
+	operation_mode => "vcc",
+	output_mode => "reg",
+	pexp_mode => "on",
+	power_up => "low",
+	register_mode => "tff")
+-- pragma translate_on
+PORT MAP (
+	clk => \CLK~dataout\,
+	pterm0 => CNT_CLK_pterm0_bus,
+	pterm1 => CNT_CLK_pterm1_bus,
+	pterm2 => CNT_CLK_pterm2_bus,
+	pterm3 => CNT_CLK_pterm3_bus,
+	pterm4 => CNT_CLK_pterm4_bus,
+	pterm5 => CNT_CLK_pterm5_bus,
+	pxor => CNT_CLK_pxor_bus,
+	pclk => CNT_CLK_pclk_bus,
+	papre => CNT_CLK_papre_bus,
+	paclr => CNT_CLK_paclr_bus,
+	pena => CNT_CLK_pena_bus,
+	dataout => \CNT_CLK~dataout\);
+
+-- Location: LC2
 CLK_NEW : max_mcell
 -- pragma translate_off
 GENERIC MAP (
@@ -2622,7 +3331,7 @@ PORT MAP (
 	pena => CLK_NEW_pena_bus,
 	dataout => \CLK_NEW~dataout\);
 
--- Location: LC15
+-- Location: LC27
 \cnt_rtl_0|dffs[13]\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
@@ -2646,7 +3355,7 @@ PORT MAP (
 	pena => \cnt_rtl_0|dffs[13]_pena_bus\,
 	dataout => \cnt_rtl_0|dffs\(13));
 
--- Location: LC2
+-- Location: LC31
 \cnt_rtl_0|dffs[12]\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
@@ -2670,7 +3379,7 @@ PORT MAP (
 	pena => \cnt_rtl_0|dffs[12]_pena_bus\,
 	dataout => \cnt_rtl_0|dffs\(12));
 
--- Location: LC5
+-- Location: LC32
 \cnt_rtl_0|dffs[11]\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
@@ -2694,7 +3403,7 @@ PORT MAP (
 	pena => \cnt_rtl_0|dffs[11]_pena_bus\,
 	dataout => \cnt_rtl_0|dffs\(11));
 
--- Location: LC6
+-- Location: LC22
 \cnt_rtl_0|dffs[10]\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
@@ -2718,7 +3427,7 @@ PORT MAP (
 	pena => \cnt_rtl_0|dffs[10]_pena_bus\,
 	dataout => \cnt_rtl_0|dffs\(10));
 
--- Location: LC7
+-- Location: LC24
 \cnt_rtl_0|dffs[9]\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
@@ -2742,7 +3451,7 @@ PORT MAP (
 	pena => \cnt_rtl_0|dffs[9]_pena_bus\,
 	dataout => \cnt_rtl_0|dffs\(9));
 
--- Location: LC8
+-- Location: LC23
 \cnt_rtl_0|dffs[8]\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
@@ -2766,7 +3475,7 @@ PORT MAP (
 	pena => \cnt_rtl_0|dffs[8]_pena_bus\,
 	dataout => \cnt_rtl_0|dffs\(8));
 
--- Location: LC12
+-- Location: LC25
 \cnt_rtl_0|dffs[7]\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
@@ -2790,7 +3499,7 @@ PORT MAP (
 	pena => \cnt_rtl_0|dffs[7]_pena_bus\,
 	dataout => \cnt_rtl_0|dffs\(7));
 
--- Location: LC13
+-- Location: LC29
 \cnt_rtl_0|dffs[6]\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
@@ -2814,7 +3523,7 @@ PORT MAP (
 	pena => \cnt_rtl_0|dffs[6]_pena_bus\,
 	dataout => \cnt_rtl_0|dffs\(6));
 
--- Location: LC9
+-- Location: LC30
 \cnt_rtl_0|dffs[5]\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
@@ -2838,7 +3547,7 @@ PORT MAP (
 	pena => \cnt_rtl_0|dffs[5]_pena_bus\,
 	dataout => \cnt_rtl_0|dffs\(5));
 
--- Location: LC14
+-- Location: LC21
 \cnt_rtl_0|dffs[4]\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
@@ -2862,7 +3571,7 @@ PORT MAP (
 	pena => \cnt_rtl_0|dffs[4]_pena_bus\,
 	dataout => \cnt_rtl_0|dffs\(4));
 
--- Location: LC16
+-- Location: LC19
 \cnt_rtl_0|dffs[3]\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
@@ -2886,7 +3595,7 @@ PORT MAP (
 	pena => \cnt_rtl_0|dffs[3]_pena_bus\,
 	dataout => \cnt_rtl_0|dffs\(3));
 
--- Location: LC1
+-- Location: LC20
 \cnt_rtl_0|dffs[2]\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
@@ -2910,7 +3619,7 @@ PORT MAP (
 	pena => \cnt_rtl_0|dffs[2]_pena_bus\,
 	dataout => \cnt_rtl_0|dffs\(2));
 
--- Location: LC34
+-- Location: LC38
 \cnt_rtl_0|dffs[0]\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
@@ -2934,7 +3643,7 @@ PORT MAP (
 	pena => \cnt_rtl_0|dffs[0]_pena_bus\,
 	dataout => \cnt_rtl_0|dffs\(0));
 
--- Location: LC48
+-- Location: LC34
 \cnt_rtl_0|dffs[1]\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
@@ -2958,8 +3667,8 @@ PORT MAP (
 	pena => \cnt_rtl_0|dffs[1]_pena_bus\,
 	dataout => \cnt_rtl_0|dffs\(1));
 
--- Location: LC38
-\O_rtl_2|dffs[0]\ : max_mcell
+-- Location: LC39
+\O[0]\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
 	operation_mode => "normal",
@@ -2969,21 +3678,21 @@ GENERIC MAP (
 	register_mode => "tff")
 -- pragma translate_on
 PORT MAP (
-	pterm0 => \O_rtl_2|dffs[0]_pterm0_bus\,
-	pterm1 => \O_rtl_2|dffs[0]_pterm1_bus\,
-	pterm2 => \O_rtl_2|dffs[0]_pterm2_bus\,
-	pterm3 => \O_rtl_2|dffs[0]_pterm3_bus\,
-	pterm4 => \O_rtl_2|dffs[0]_pterm4_bus\,
-	pterm5 => \O_rtl_2|dffs[0]_pterm5_bus\,
-	pxor => \O_rtl_2|dffs[0]_pxor_bus\,
-	pclk => \O_rtl_2|dffs[0]_pclk_bus\,
-	papre => \O_rtl_2|dffs[0]_papre_bus\,
-	paclr => \O_rtl_2|dffs[0]_paclr_bus\,
-	pena => \O_rtl_2|dffs[0]_pena_bus\,
-	dataout => \O_rtl_2|dffs\(0));
+	pterm0 => \O[0]_pterm0_bus\,
+	pterm1 => \O[0]_pterm1_bus\,
+	pterm2 => \O[0]_pterm2_bus\,
+	pterm3 => \O[0]_pterm3_bus\,
+	pterm4 => \O[0]_pterm4_bus\,
+	pterm5 => \O[0]_pterm5_bus\,
+	pxor => \O[0]_pxor_bus\,
+	pclk => \O[0]_pclk_bus\,
+	papre => \O[0]_papre_bus\,
+	paclr => \O[0]_paclr_bus\,
+	pena => \O[0]_pena_bus\,
+	dataout => O(0));
 
--- Location: LC59
-\O_rtl_2|dffs[2]\ : max_mcell
+-- Location: LC50
+\O[2]\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
 	operation_mode => "normal",
@@ -2993,21 +3702,43 @@ GENERIC MAP (
 	register_mode => "tff")
 -- pragma translate_on
 PORT MAP (
-	pterm0 => \O_rtl_2|dffs[2]_pterm0_bus\,
-	pterm1 => \O_rtl_2|dffs[2]_pterm1_bus\,
-	pterm2 => \O_rtl_2|dffs[2]_pterm2_bus\,
-	pterm3 => \O_rtl_2|dffs[2]_pterm3_bus\,
-	pterm4 => \O_rtl_2|dffs[2]_pterm4_bus\,
-	pterm5 => \O_rtl_2|dffs[2]_pterm5_bus\,
-	pxor => \O_rtl_2|dffs[2]_pxor_bus\,
-	pclk => \O_rtl_2|dffs[2]_pclk_bus\,
-	papre => \O_rtl_2|dffs[2]_papre_bus\,
-	paclr => \O_rtl_2|dffs[2]_paclr_bus\,
-	pena => \O_rtl_2|dffs[2]_pena_bus\,
-	dataout => \O_rtl_2|dffs\(2));
+	pterm0 => \O[2]_pterm0_bus\,
+	pterm1 => \O[2]_pterm1_bus\,
+	pterm2 => \O[2]_pterm2_bus\,
+	pterm3 => \O[2]_pterm3_bus\,
+	pterm4 => \O[2]_pterm4_bus\,
+	pterm5 => \O[2]_pterm5_bus\,
+	pxor => \O[2]_pxor_bus\,
+	pclk => \O[2]_pclk_bus\,
+	papre => \O[2]_papre_bus\,
+	paclr => \O[2]_paclr_bus\,
+	pena => \O[2]_pena_bus\,
+	dataout => O(2));
+
+-- Location: LC17
+\O[1]~89\ : max_mcell
+-- pragma translate_off
+GENERIC MAP (
+	operation_mode => "vcc",
+	output_mode => "comb",
+	pexp_mode => "on")
+-- pragma translate_on
+PORT MAP (
+	pterm0 => \O[1]~89_pterm0_bus\,
+	pterm1 => \O[1]~89_pterm1_bus\,
+	pterm2 => \O[1]~89_pterm2_bus\,
+	pterm3 => \O[1]~89_pterm3_bus\,
+	pterm4 => \O[1]~89_pterm4_bus\,
+	pterm5 => \O[1]~89_pterm5_bus\,
+	pxor => \O[1]~89_pxor_bus\,
+	pclk => \O[1]~89_pclk_bus\,
+	papre => \O[1]~89_papre_bus\,
+	paclr => \O[1]~89_paclr_bus\,
+	pena => \O[1]~89_pena_bus\,
+	pexpout => \O[1]~89_pexpout\);
 
 -- Location: LC52
-\O_rtl_2|dffs[3]~47\ : max_mcell
+\O[3]~93\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
 	operation_mode => "vcc",
@@ -3015,21 +3746,21 @@ GENERIC MAP (
 	pexp_mode => "on")
 -- pragma translate_on
 PORT MAP (
-	pterm0 => \O_rtl_2|dffs[3]~47_pterm0_bus\,
-	pterm1 => \O_rtl_2|dffs[3]~47_pterm1_bus\,
-	pterm2 => \O_rtl_2|dffs[3]~47_pterm2_bus\,
-	pterm3 => \O_rtl_2|dffs[3]~47_pterm3_bus\,
-	pterm4 => \O_rtl_2|dffs[3]~47_pterm4_bus\,
-	pterm5 => \O_rtl_2|dffs[3]~47_pterm5_bus\,
-	pxor => \O_rtl_2|dffs[3]~47_pxor_bus\,
-	pclk => \O_rtl_2|dffs[3]~47_pclk_bus\,
-	papre => \O_rtl_2|dffs[3]~47_papre_bus\,
-	paclr => \O_rtl_2|dffs[3]~47_paclr_bus\,
-	pena => \O_rtl_2|dffs[3]~47_pena_bus\,
-	pexpout => \O_rtl_2|dffs[3]~47_pexpout\);
+	pterm0 => \O[3]~93_pterm0_bus\,
+	pterm1 => \O[3]~93_pterm1_bus\,
+	pterm2 => \O[3]~93_pterm2_bus\,
+	pterm3 => \O[3]~93_pterm3_bus\,
+	pterm4 => \O[3]~93_pterm4_bus\,
+	pterm5 => \O[3]~93_pterm5_bus\,
+	pxor => \O[3]~93_pxor_bus\,
+	pclk => \O[3]~93_pclk_bus\,
+	papre => \O[3]~93_papre_bus\,
+	paclr => \O[3]~93_paclr_bus\,
+	pena => \O[3]~93_pena_bus\,
+	pexpout => \O[3]~93_pexpout\);
 
 -- Location: LC53
-\O_rtl_2|dffs[3]\ : max_mcell
+\O[3]\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
 	operation_mode => "normal",
@@ -3039,44 +3770,22 @@ GENERIC MAP (
 	register_mode => "tff")
 -- pragma translate_on
 PORT MAP (
-	pexpin => \O_rtl_2|dffs[3]~47_pexpout\,
-	pterm0 => \O_rtl_2|dffs[3]_pterm0_bus\,
-	pterm1 => \O_rtl_2|dffs[3]_pterm1_bus\,
-	pterm2 => \O_rtl_2|dffs[3]_pterm2_bus\,
-	pterm3 => \O_rtl_2|dffs[3]_pterm3_bus\,
-	pterm4 => \O_rtl_2|dffs[3]_pterm4_bus\,
-	pterm5 => \O_rtl_2|dffs[3]_pterm5_bus\,
-	pxor => \O_rtl_2|dffs[3]_pxor_bus\,
-	pclk => \O_rtl_2|dffs[3]_pclk_bus\,
-	papre => \O_rtl_2|dffs[3]_papre_bus\,
-	paclr => \O_rtl_2|dffs[3]_paclr_bus\,
-	pena => \O_rtl_2|dffs[3]_pena_bus\,
-	dataout => \O_rtl_2|dffs\(3));
+	pexpin => \O[3]~93_pexpout\,
+	pterm0 => \O[3]_pterm0_bus\,
+	pterm1 => \O[3]_pterm1_bus\,
+	pterm2 => \O[3]_pterm2_bus\,
+	pterm3 => \O[3]_pterm3_bus\,
+	pterm4 => \O[3]_pterm4_bus\,
+	pterm5 => \O[3]_pterm5_bus\,
+	pxor => \O[3]_pxor_bus\,
+	pclk => \O[3]_pclk_bus\,
+	papre => \O[3]_papre_bus\,
+	paclr => \O[3]_paclr_bus\,
+	pena => \O[3]_pena_bus\,
+	dataout => O(3));
 
--- Location: LC3
-\O_rtl_2|dffs[1]~43\ : max_mcell
--- pragma translate_off
-GENERIC MAP (
-	operation_mode => "vcc",
-	output_mode => "comb",
-	pexp_mode => "on")
--- pragma translate_on
-PORT MAP (
-	pterm0 => \O_rtl_2|dffs[1]~43_pterm0_bus\,
-	pterm1 => \O_rtl_2|dffs[1]~43_pterm1_bus\,
-	pterm2 => \O_rtl_2|dffs[1]~43_pterm2_bus\,
-	pterm3 => \O_rtl_2|dffs[1]~43_pterm3_bus\,
-	pterm4 => \O_rtl_2|dffs[1]~43_pterm4_bus\,
-	pterm5 => \O_rtl_2|dffs[1]~43_pterm5_bus\,
-	pxor => \O_rtl_2|dffs[1]~43_pxor_bus\,
-	pclk => \O_rtl_2|dffs[1]~43_pclk_bus\,
-	papre => \O_rtl_2|dffs[1]~43_papre_bus\,
-	paclr => \O_rtl_2|dffs[1]~43_paclr_bus\,
-	pena => \O_rtl_2|dffs[1]~43_pena_bus\,
-	pexpout => \O_rtl_2|dffs[1]~43_pexpout\);
-
--- Location: LC4
-\O_rtl_2|dffs[1]\ : max_mcell
+-- Location: LC18
+\O[1]\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
 	operation_mode => "normal",
@@ -3086,21 +3795,21 @@ GENERIC MAP (
 	register_mode => "tff")
 -- pragma translate_on
 PORT MAP (
-	pexpin => \O_rtl_2|dffs[1]~43_pexpout\,
-	pterm0 => \O_rtl_2|dffs[1]_pterm0_bus\,
-	pterm1 => \O_rtl_2|dffs[1]_pterm1_bus\,
-	pterm2 => \O_rtl_2|dffs[1]_pterm2_bus\,
-	pterm3 => \O_rtl_2|dffs[1]_pterm3_bus\,
-	pterm4 => \O_rtl_2|dffs[1]_pterm4_bus\,
-	pterm5 => \O_rtl_2|dffs[1]_pterm5_bus\,
-	pxor => \O_rtl_2|dffs[1]_pxor_bus\,
-	pclk => \O_rtl_2|dffs[1]_pclk_bus\,
-	papre => \O_rtl_2|dffs[1]_papre_bus\,
-	paclr => \O_rtl_2|dffs[1]_paclr_bus\,
-	pena => \O_rtl_2|dffs[1]_pena_bus\,
-	dataout => \O_rtl_2|dffs\(1));
+	pexpin => \O[1]~89_pexpout\,
+	pterm0 => \O[1]_pterm0_bus\,
+	pterm1 => \O[1]_pterm1_bus\,
+	pterm2 => \O[1]_pterm2_bus\,
+	pterm3 => \O[1]_pterm3_bus\,
+	pterm4 => \O[1]_pterm4_bus\,
+	pterm5 => \O[1]_pterm5_bus\,
+	pxor => \O[1]_pxor_bus\,
+	pclk => \O[1]_pclk_bus\,
+	papre => \O[1]_papre_bus\,
+	paclr => \O[1]_paclr_bus\,
+	pena => \O[1]_pena_bus\,
+	dataout => O(1));
 
--- Location: LC45
+-- Location: LC42
 \LessThan0~4\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
@@ -3128,7 +3837,7 @@ PORT MAP (
 	datain => \C[0]~3_datain_bus\,
 	dataout => \C[0]~3_dataout\);
 
--- Location: LC44
+-- Location: LC48
 \Add3~9\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
@@ -3150,13 +3859,13 @@ PORT MAP (
 	pena => \Add3~9_pena_bus\,
 	dataout => \Add3~9_dataout\);
 
--- Location: SEXP24
+-- Location: SEXP17
 \C[0]~1sexpand0\ : max_sexp
 PORT MAP (
 	datain => \C[0]~1sexpand0_datain_bus\,
 	dataout => \C[0]~1sexpand0_dataout\);
 
--- Location: LC42
+-- Location: LC44
 \Add3~13\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
@@ -3202,7 +3911,7 @@ PORT MAP (
 	datain => \Equal0~5_datain_bus\,
 	dataout => \Equal0~5_dataout\);
 
--- Location: LC50
+-- Location: LC59
 \O_rtl_1|dffs[3]\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
@@ -3226,7 +3935,7 @@ PORT MAP (
 	pena => \O_rtl_1|dffs[3]_pena_bus\,
 	dataout => \O_rtl_1|dffs\(3));
 
--- Location: LC61
+-- Location: LC55
 \O_rtl_0|dffs[0]\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
@@ -3250,7 +3959,7 @@ PORT MAP (
 	pena => \O_rtl_0|dffs[0]_pena_bus\,
 	dataout => \O_rtl_0|dffs\(0));
 
--- Location: LC64
+-- Location: LC56
 \O_rtl_0|dffs[1]\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
@@ -3274,7 +3983,7 @@ PORT MAP (
 	pena => \O_rtl_0|dffs[1]_pena_bus\,
 	dataout => \O_rtl_0|dffs\(1));
 
--- Location: LC63
+-- Location: LC58
 \O_rtl_0|dffs[2]\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
@@ -3304,7 +4013,7 @@ PORT MAP (
 	datain => \process_0~14_datain_bus\,
 	dataout => \process_0~14_dataout\);
 
--- Location: LC62
+-- Location: LC60
 \O_rtl_1|dffs[0]\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
@@ -3328,7 +4037,7 @@ PORT MAP (
 	pena => \O_rtl_1|dffs[0]_pena_bus\,
 	dataout => \O_rtl_1|dffs\(0));
 
--- Location: LC60
+-- Location: LC64
 \O_rtl_1|dffs[1]\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
@@ -3394,7 +4103,7 @@ PORT MAP (
 	datain => \process_0~11_datain_bus\,
 	dataout => \process_0~11_dataout\);
 
--- Location: LC39
+-- Location: LC47
 \O[7]\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
@@ -3418,31 +4127,31 @@ PORT MAP (
 	pena => \O[7]_pena_bus\,
 	dataout => O(7));
 
--- Location: SEXP21
+-- Location: SEXP19
 \process_0~4sexp\ : max_sexp
 PORT MAP (
 	datain => \process_0~4sexp_datain_bus\,
 	dataout => \process_0~4sexp_dataout\);
 
--- Location: SEXP31
+-- Location: SEXP20
 \process_0~6sexp\ : max_sexp
 PORT MAP (
 	datain => \process_0~6sexp_datain_bus\,
 	dataout => \process_0~6sexp_dataout\);
 
--- Location: SEXP17
+-- Location: SEXP21
 \Equal0~3sexp\ : max_sexp
 PORT MAP (
 	datain => \Equal0~3sexp_datain_bus\,
 	dataout => \Equal0~3sexp_dataout\);
 
--- Location: SEXP18
+-- Location: SEXP22
 \process_0~8sexp\ : max_sexp
 PORT MAP (
 	datain => \process_0~8sexp_datain_bus\,
 	dataout => \process_0~8sexp_dataout\);
 
--- Location: LC24
+-- Location: LC28
 \O[6]\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
@@ -3472,7 +4181,7 @@ PORT MAP (
 	datain => \process_0~12_datain_bus\,
 	dataout => \process_0~12_dataout\);
 
--- Location: LC56
+-- Location: LC62
 \O[4]\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
@@ -3496,7 +4205,7 @@ PORT MAP (
 	pena => \O[4]_pena_bus\,
 	dataout => O(4));
 
--- Location: LC47
+-- Location: LC43
 \Add3~5\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
@@ -3518,7 +4227,7 @@ PORT MAP (
 	pena => \Add3~5_pena_bus\,
 	dataout => \Add3~5_dataout\);
 
--- Location: LC21
+-- Location: LC26
 \O[5]\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (
@@ -3586,7 +4295,7 @@ PORT MAP (
 	pena => \Selector1~9_pena_bus\,
 	dataout => \Selector1~9_dataout\);
 
--- Location: LC55
+-- Location: LC61
 \O_rtl_0|dffs[3]\ : max_mcell
 -- pragma translate_off
 GENERIC MAP (

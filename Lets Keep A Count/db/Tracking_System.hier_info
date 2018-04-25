@@ -1,6 +1,15 @@
 |Haziri
 CLK => CNT_CLK.CLK
 CLK => CLK_NEW.CLK
+CLK => \process_1:CNT[0].CLK
+CLK => \process_1:CNT[1].CLK
+CLK => \process_1:CNT[2].CLK
+CLK => \process_1:CNT[3].CLK
+CLK => \process_1:CNT[4].CLK
+CLK => \process_1:CNT[5].CLK
+CLK => \process_1:CNT[6].CLK
+CLK => \process_1:CNT[7].CLK
+CLK => \process_1:CNT[8].CLK
 CLK => Q.IN1
 OP[0] <= Selector3.DB_MAX_OUTPUT_PORT_TYPE
 OP[1] <= Selector2.DB_MAX_OUTPUT_PORT_TYPE
