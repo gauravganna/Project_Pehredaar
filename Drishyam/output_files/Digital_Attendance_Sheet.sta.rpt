@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for Digital_Attendance_Sheet
-Tue Apr 17 22:17:21 2018
+Sun May  6 18:18:24 2018
 Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -153,13 +153,13 @@ No paths to report.
 ; -10.100 ; Q.state_bit_1                        ; Q.state_bit_1                        ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 8.200      ;
 ; -10.000 ; CNT_CMD[1]                           ; Q.state_bit_0                        ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 8.100      ;
 ; -10.000 ; CNT_CMD[0]                           ; Q.state_bit_0                        ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 8.100      ;
-; -10.000 ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[3] ; Q.state_bit_0                        ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 8.100      ;
-; -10.000 ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[2] ; Q.state_bit_0                        ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 8.100      ;
-; -10.000 ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[1] ; Q.state_bit_0                        ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 8.100      ;
-; -10.000 ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[0] ; Q.state_bit_0                        ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 8.100      ;
 ; -10.000 ; CNT_CMD[2]                           ; Q.state_bit_0                        ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 8.100      ;
 ; -10.000 ; CNT_CMD[1]                           ; Q.state_bit_1                        ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 8.100      ;
 ; -10.000 ; CNT_CMD[0]                           ; Q.state_bit_1                        ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 8.100      ;
+; -9.900  ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[3] ; Q.state_bit_0                        ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 8.000      ;
+; -9.900  ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[2] ; Q.state_bit_0                        ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 8.000      ;
+; -9.900  ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[1] ; Q.state_bit_0                        ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 8.000      ;
+; -9.900  ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[0] ; Q.state_bit_0                        ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 8.000      ;
 ; -9.200  ; Q.state_bit_2                        ; CNT_CMD[0]                           ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 7.300      ;
 ; -9.200  ; Q.state_bit_3                        ; CNT_CMD[0]                           ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 7.300      ;
 ; -9.200  ; Q.state_bit_0                        ; CNT_CMD[0]                           ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 7.300      ;
@@ -205,12 +205,6 @@ No paths to report.
 ; -9.100  ; CNT_ATTENDANCE[2]                    ; Q.state_bit_2                        ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 7.200      ;
 ; -9.100  ; CNT_ATTENDANCE[1]                    ; Q.state_bit_2                        ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 7.200      ;
 ; -9.100  ; CNT_ATTENDANCE[0]                    ; Q.state_bit_2                        ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 7.200      ;
-; -9.100  ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[1] ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[3] ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 7.200      ;
-; -9.100  ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[0] ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[3] ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 7.200      ;
-; -9.100  ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[2] ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[3] ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 7.200      ;
-; -9.100  ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[1] ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[2] ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 7.200      ;
-; -9.100  ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[0] ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[2] ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 7.200      ;
-; -9.100  ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[0] ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[1] ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 7.200      ;
 ; -9.100  ; CNT_ATTENDANCE[1]                    ; CNT_ATTENDANCE[2]                    ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 7.200      ;
 ; -9.100  ; CNT_ATTENDANCE[0]                    ; CNT_ATTENDANCE[2]                    ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 7.200      ;
 ; -9.100  ; CNT_ATTENDANCE[0]                    ; CNT_ATTENDANCE[1]                    ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 7.200      ;
@@ -223,8 +217,14 @@ No paths to report.
 ; -9.100  ; CNT_CMD[0]                           ; CNT_CMD[1]                           ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 7.200      ;
 ; -9.000  ; CNT_CMD[0]                           ; CNT_CMD[0]                           ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 7.100      ;
 ; -9.000  ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[3] ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[3] ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 7.100      ;
+; -9.000  ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[1] ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[3] ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 7.100      ;
+; -9.000  ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[0] ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[3] ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 7.100      ;
+; -9.000  ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[2] ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[3] ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 7.100      ;
 ; -9.000  ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[2] ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[2] ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 7.100      ;
+; -9.000  ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[1] ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[2] ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 7.100      ;
+; -9.000  ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[0] ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[2] ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 7.100      ;
 ; -9.000  ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[1] ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[1] ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 7.100      ;
+; -9.000  ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[0] ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[1] ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 7.100      ;
 ; -9.000  ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[0] ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[0] ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 7.100      ;
 ; -9.000  ; CNT_ATTENDANCE[2]                    ; CNT_ATTENDANCE[2]                    ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 7.100      ;
 ; -9.000  ; CNT_ATTENDANCE[1]                    ; CNT_ATTENDANCE[1]                    ; CLK_NEW      ; CLK_NEW     ; 1.000        ; 0.000      ; 7.100      ;
@@ -355,8 +355,14 @@ No paths to report.
 ; 5.800 ; Q.state_bit_2                        ; Q.state_bit_2                        ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 7.100      ;
 ; 5.800 ; Q.state_bit_3                        ; Q.state_bit_3                        ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 7.100      ;
 ; 5.800 ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[3] ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[3] ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 7.100      ;
+; 5.800 ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[1] ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[3] ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 7.100      ;
+; 5.800 ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[0] ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[3] ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 7.100      ;
+; 5.800 ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[2] ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[3] ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 7.100      ;
 ; 5.800 ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[2] ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[2] ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 7.100      ;
+; 5.800 ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[1] ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[2] ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 7.100      ;
+; 5.800 ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[0] ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[2] ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 7.100      ;
 ; 5.800 ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[1] ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[1] ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 7.100      ;
+; 5.800 ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[0] ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[1] ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 7.100      ;
 ; 5.800 ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[0] ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[0] ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 7.100      ;
 ; 5.800 ; CNT_ATTENDANCE[2]                    ; CNT_ATTENDANCE[2]                    ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 7.100      ;
 ; 5.800 ; CNT_ATTENDANCE[1]                    ; CNT_ATTENDANCE[1]                    ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 7.100      ;
@@ -367,12 +373,6 @@ No paths to report.
 ; 5.900 ; CNT_ATTENDANCE[2]                    ; Q.state_bit_2                        ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 7.200      ;
 ; 5.900 ; CNT_ATTENDANCE[1]                    ; Q.state_bit_2                        ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 7.200      ;
 ; 5.900 ; CNT_ATTENDANCE[0]                    ; Q.state_bit_2                        ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 7.200      ;
-; 5.900 ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[1] ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[3] ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 7.200      ;
-; 5.900 ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[0] ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[3] ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 7.200      ;
-; 5.900 ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[2] ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[3] ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 7.200      ;
-; 5.900 ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[1] ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[2] ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 7.200      ;
-; 5.900 ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[0] ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[2] ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 7.200      ;
-; 5.900 ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[0] ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[1] ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 7.200      ;
 ; 5.900 ; CNT_ATTENDANCE[1]                    ; CNT_ATTENDANCE[2]                    ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 7.200      ;
 ; 5.900 ; CNT_ATTENDANCE[0]                    ; CNT_ATTENDANCE[2]                    ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 7.200      ;
 ; 5.900 ; CNT_ATTENDANCE[0]                    ; CNT_ATTENDANCE[1]                    ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 7.200      ;
@@ -429,13 +429,13 @@ No paths to report.
 ; 6.000 ; Q.state_bit_3                        ; CNT_CMD[1]                           ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 7.300      ;
 ; 6.000 ; Q.state_bit_0                        ; CNT_CMD[1]                           ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 7.300      ;
 ; 6.000 ; Q.state_bit_1                        ; CNT_CMD[1]                           ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 7.300      ;
-; 6.800 ; CNT_CMD[1]                           ; Q.state_bit_0                        ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 8.100      ;
+; 6.700 ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[3] ; Q.state_bit_0                        ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 8.000      ;
+; 6.700 ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[2] ; Q.state_bit_0                        ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 8.000      ;
+; 6.700 ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[1] ; Q.state_bit_0                        ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 8.000      ;
+; 6.700 ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[0] ; Q.state_bit_0                        ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 8.000      ;
 ; 6.800 ; CNT_CMD[1]                           ; Q.state_bit_1                        ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 8.100      ;
+; 6.800 ; CNT_CMD[1]                           ; Q.state_bit_0                        ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 8.100      ;
 ; 6.800 ; CNT_CMD[0]                           ; Q.state_bit_0                        ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 8.100      ;
-; 6.800 ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[3] ; Q.state_bit_0                        ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 8.100      ;
-; 6.800 ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[2] ; Q.state_bit_0                        ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 8.100      ;
-; 6.800 ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[1] ; Q.state_bit_0                        ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 8.100      ;
-; 6.800 ; lpm_counter:CNT_ROLLNO_rtl_0|dffs[0] ; Q.state_bit_0                        ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 8.100      ;
 ; 6.800 ; CNT_CMD[2]                           ; Q.state_bit_0                        ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 8.100      ;
 ; 6.800 ; CNT_CMD[0]                           ; Q.state_bit_1                        ; CLK_NEW      ; CLK_NEW     ; 0.000        ; 0.000      ; 8.100      ;
 +-------+--------------------------------------+--------------------------------------+--------------+-------------+--------------+------------+------------+
@@ -554,17 +554,17 @@ No paths to report.
 +-----------+------------+--------+--------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
 +-----------+------------+--------+--------+------------+-----------------+
-; D[*]      ; CLK_NEW    ; 26.000 ; 26.000 ; Rise       ; CLK_NEW         ;
-;  D[0]     ; CLK_NEW    ; 23.100 ; 23.100 ; Rise       ; CLK_NEW         ;
-;  D[1]     ; CLK_NEW    ; 23.100 ; 23.100 ; Rise       ; CLK_NEW         ;
-;  D[2]     ; CLK_NEW    ; 23.100 ; 23.100 ; Rise       ; CLK_NEW         ;
-;  D[3]     ; CLK_NEW    ; 23.100 ; 23.100 ; Rise       ; CLK_NEW         ;
-;  D[4]     ; CLK_NEW    ; 26.000 ; 26.000 ; Rise       ; CLK_NEW         ;
-;  D[5]     ; CLK_NEW    ; 23.100 ; 23.100 ; Rise       ; CLK_NEW         ;
-;  D[6]     ; CLK_NEW    ; 23.100 ; 23.100 ; Rise       ; CLK_NEW         ;
-;  D[7]     ; CLK_NEW    ; 23.100 ; 23.100 ; Rise       ; CLK_NEW         ;
-; EN        ; CLK_NEW    ; 23.100 ; 23.100 ; Rise       ; CLK_NEW         ;
-; RS        ; CLK_NEW    ; 23.100 ; 23.100 ; Rise       ; CLK_NEW         ;
+; D[*]      ; CLK_NEW    ; 26.100 ; 26.100 ; Rise       ; CLK_NEW         ;
+;  D[0]     ; CLK_NEW    ; 24.000 ; 24.000 ; Rise       ; CLK_NEW         ;
+;  D[1]     ; CLK_NEW    ; 23.200 ; 23.200 ; Rise       ; CLK_NEW         ;
+;  D[2]     ; CLK_NEW    ; 23.200 ; 23.200 ; Rise       ; CLK_NEW         ;
+;  D[3]     ; CLK_NEW    ; 23.200 ; 23.200 ; Rise       ; CLK_NEW         ;
+;  D[4]     ; CLK_NEW    ; 26.100 ; 26.100 ; Rise       ; CLK_NEW         ;
+;  D[5]     ; CLK_NEW    ; 23.200 ; 23.200 ; Rise       ; CLK_NEW         ;
+;  D[6]     ; CLK_NEW    ; 23.200 ; 23.200 ; Rise       ; CLK_NEW         ;
+;  D[7]     ; CLK_NEW    ; 23.200 ; 23.200 ; Rise       ; CLK_NEW         ;
+; EN        ; CLK_NEW    ; 23.200 ; 23.200 ; Rise       ; CLK_NEW         ;
+; RS        ; CLK_NEW    ; 23.200 ; 23.200 ; Rise       ; CLK_NEW         ;
 +-----------+------------+--------+--------+------------+-----------------+
 
 
@@ -573,15 +573,15 @@ No paths to report.
 +-----------+------------+--------+--------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
 +-----------+------------+--------+--------+------------+-----------------+
-; D[*]      ; CLK_NEW    ; 19.100 ; 19.100 ; Rise       ; CLK_NEW         ;
+; D[*]      ; CLK_NEW    ; 19.200 ; 19.200 ; Rise       ; CLK_NEW         ;
 ;  D[0]     ; CLK_NEW    ; 22.000 ; 22.000 ; Rise       ; CLK_NEW         ;
-;  D[1]     ; CLK_NEW    ; 22.000 ; 22.000 ; Rise       ; CLK_NEW         ;
+;  D[1]     ; CLK_NEW    ; 22.100 ; 22.100 ; Rise       ; CLK_NEW         ;
 ;  D[2]     ; CLK_NEW    ; 22.000 ; 22.000 ; Rise       ; CLK_NEW         ;
-;  D[3]     ; CLK_NEW    ; 22.000 ; 22.000 ; Rise       ; CLK_NEW         ;
-;  D[4]     ; CLK_NEW    ; 19.100 ; 19.100 ; Rise       ; CLK_NEW         ;
-;  D[5]     ; CLK_NEW    ; 22.000 ; 22.000 ; Rise       ; CLK_NEW         ;
+;  D[3]     ; CLK_NEW    ; 22.100 ; 22.100 ; Rise       ; CLK_NEW         ;
+;  D[4]     ; CLK_NEW    ; 19.200 ; 19.200 ; Rise       ; CLK_NEW         ;
+;  D[5]     ; CLK_NEW    ; 22.100 ; 22.100 ; Rise       ; CLK_NEW         ;
 ;  D[6]     ; CLK_NEW    ; 22.100 ; 22.100 ; Rise       ; CLK_NEW         ;
-;  D[7]     ; CLK_NEW    ; 22.000 ; 22.000 ; Rise       ; CLK_NEW         ;
+;  D[7]     ; CLK_NEW    ; 22.100 ; 22.100 ; Rise       ; CLK_NEW         ;
 ; EN        ; CLK_NEW    ; 22.100 ; 22.100 ; Rise       ; CLK_NEW         ;
 ; RS        ; CLK_NEW    ; 22.100 ; 22.100 ; Rise       ; CLK_NEW         ;
 +-----------+------------+--------+--------+------------+-----------------+
@@ -643,7 +643,7 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 Info: *******************************************************************
 Info: Running Quartus II 32-bit TimeQuest Timing Analyzer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Tue Apr 17 22:17:20 2018
+    Info: Processing started: Sun May  6 18:18:23 2018
 Info: Command: quartus_sta Digital_Attendance_Sheet -c Digital_Attendance_Sheet
 Info: qsta_default_script.tcl version: #1
 Warning (20028): Parallel compilation is not licensed and has been disabled
@@ -656,35 +656,35 @@ Info (332105): Deriving Clocks
     Info (332105): create_clock -period 1.000 -name CLK CLK
     Info (332105): create_clock -period 1.000 -name CLK_NEW CLK_NEW
 Warning (332125): Found combinational loop of 2 nodes
-    Warning (332126): Node "D[1]$latch~6|[2]"
-    Warning (332126): Node "D[1]$latch~6|dataout"
-Warning (332125): Found combinational loop of 2 nodes
     Warning (332126): Node "D[0]$latch~6|[2]"
     Warning (332126): Node "D[0]$latch~6|dataout"
-Warning (332125): Found combinational loop of 2 nodes
-    Warning (332126): Node "D[2]$latch~6|[2]"
-    Warning (332126): Node "D[2]$latch~6|dataout"
 Warning (332125): Found combinational loop of 2 nodes
     Warning (332126): Node "D[4]$latch~6|[1]"
     Warning (332126): Node "D[4]$latch~6|dataout"
 Warning (332125): Found combinational loop of 2 nodes
+    Warning (332126): Node "D[2]$latch~6|[2]"
+    Warning (332126): Node "D[2]$latch~6|dataout"
+Warning (332125): Found combinational loop of 2 nodes
+    Warning (332126): Node "D[3]$latch~6|[2]"
+    Warning (332126): Node "D[3]$latch~6|dataout"
+Warning (332125): Found combinational loop of 2 nodes
+    Warning (332126): Node "D[1]$latch~6|[2]"
+    Warning (332126): Node "D[1]$latch~6|dataout"
+Warning (332125): Found combinational loop of 2 nodes
     Warning (332126): Node "RS$latch~6|[2]"
     Warning (332126): Node "RS$latch~6|dataout"
-Warning (332125): Found combinational loop of 2 nodes
-    Warning (332126): Node "D[5]$latch~6|[2]"
-    Warning (332126): Node "D[5]$latch~6|dataout"
-Warning (332125): Found combinational loop of 2 nodes
-    Warning (332126): Node "EN$latch~6|[2]"
-    Warning (332126): Node "EN$latch~6|dataout"
-Warning (332125): Found combinational loop of 2 nodes
-    Warning (332126): Node "D[7]$latch~6|[2]"
-    Warning (332126): Node "D[7]$latch~6|dataout"
 Warning (332125): Found combinational loop of 2 nodes
     Warning (332126): Node "D[6]$latch~6|[2]"
     Warning (332126): Node "D[6]$latch~6|dataout"
 Warning (332125): Found combinational loop of 2 nodes
-    Warning (332126): Node "D[3]$latch~6|[2]"
-    Warning (332126): Node "D[3]$latch~6|dataout"
+    Warning (332126): Node "D[7]$latch~6|[2]"
+    Warning (332126): Node "D[7]$latch~6|dataout"
+Warning (332125): Found combinational loop of 2 nodes
+    Warning (332126): Node "EN$latch~6|[2]"
+    Warning (332126): Node "EN$latch~6|dataout"
+Warning (332125): Found combinational loop of 2 nodes
+    Warning (332126): Node "D[5]$latch~6|[2]"
+    Warning (332126): Node "D[5]$latch~6|dataout"
 Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
 Critical Warning (332148): Timing requirements not met
 Info (332146): Worst-case setup slack is -10.100
@@ -709,7 +709,7 @@ Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 32-bit TimeQuest Timing Analyzer was successful. 0 errors, 34 warnings
     Info: Peak virtual memory: 289 megabytes
-    Info: Processing ended: Tue Apr 17 22:17:21 2018
+    Info: Processing ended: Sun May  6 18:18:24 2018
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

@@ -1,5 +1,5 @@
 Flow report for Digital_Attendance_Sheet
-Wed Apr 25 22:31:48 2018
+Sun May  6 18:18:27 2018
 Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,14 +40,14 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+
 ; Flow Summary                                                                ;
 +---------------------------+-------------------------------------------------+
-; Flow Status               ; Assembler Failed - Wed Apr 25 22:31:48 2018     ;
+; Flow Status               ; Successful - Sun May  6 18:18:27 2018           ;
 ; Quartus II 32-bit Version ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name             ; Digital_Attendance_Sheet                        ;
 ; Top-level Entity Name     ; Display_On_LCD                                  ;
 ; Family                    ; MAX3000A                                        ;
 ; Device                    ; EPM3064ALC44-10                                 ;
 ; Timing Models             ; Final                                           ;
-; Total macrocells          ; 51 / 64 ( 80 % )                                ;
+; Total macrocells          ; 50 / 64 ( 78 % )                                ;
 ; Total pins                ; 17 / 34 ( 50 % )                                ;
 +---------------------------+-------------------------------------------------+
 
@@ -57,7 +57,7 @@ applicable agreement for further details.
 +-------------------+--------------------------+
 ; Option            ; Setting                  ;
 +-------------------+--------------------------+
-; Start date & time ; 04/25/2018 22:31:41      ;
+; Start date & time ; 05/06/2018 18:18:14      ;
 ; Main task         ; Compilation              ;
 ; Revision Name     ; Digital_Attendance_Sheet ;
 +-------------------+--------------------------+
@@ -68,7 +68,7 @@ applicable agreement for further details.
 +--------------------------+------------------------+--------------------------+-------------+----------------+
 ; Assignment Name          ; Value                  ; Default Value            ; Entity Name ; Section Id     ;
 +--------------------------+------------------------+--------------------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID    ; 0.152467570107704      ; --                       ; --          ; --             ;
+; COMPILER_SIGNATURE_ID    ; 0.152561089313447      ; --                       ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT   ; Vhdl                   ; --                       ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL      ; ModelSim-Altera (VHDL) ; <None>                   ; --          ; --             ;
 ; MAX_CORE_JUNCTION_TEMP   ; 85                     ; --                       ; --          ; --             ;
@@ -78,27 +78,31 @@ applicable agreement for further details.
 +--------------------------+------------------------+--------------------------+-------------+----------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                        ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:01     ; 1.0                     ; 359 MB              ; 00:00:02                           ;
-; Fitter               ; 00:00:00     ; 1.0                     ; 293 MB              ; 00:00:01                           ;
-; Assembler            ; 00:00:00     ; 1.0                     ; 299 MB              ; 00:00:00                           ;
-; Total                ; 00:00:01     ; --                      ; --                  ; 00:00:03                           ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 359 MB              ; 00:00:02                           ;
+; Fitter                    ; 00:00:01     ; 1.0                     ; 293 MB              ; 00:00:01                           ;
+; Assembler                 ; 00:00:00     ; 1.0                     ; 299 MB              ; 00:00:00                           ;
+; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 289 MB              ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 293 MB              ; 00:00:00                           ;
+; Total                     ; 00:00:04     ; --                      ; --                  ; 00:00:04                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+--------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                      ;
-+----------------------+------------------+--------------+------------+----------------+
-; Module Name          ; Machine Hostname ; OS Name      ; OS Version ; Processor type ;
-+----------------------+------------------+--------------+------------+----------------+
-; Analysis & Synthesis ; gauravg          ; Ubuntu 17.10 ; 17         ; x86_64         ;
-; Fitter               ; gauravg          ; Ubuntu 17.10 ; 17         ; x86_64         ;
-; Assembler            ; gauravg          ; Ubuntu 17.10 ; 17         ; x86_64         ;
-+----------------------+------------------+--------------+------------+----------------+
++-------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                           ;
++---------------------------+------------------+--------------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name      ; OS Version ; Processor type ;
++---------------------------+------------------+--------------+------------+----------------+
+; Analysis & Synthesis      ; gauravg          ; Ubuntu 18.04 ; 18         ; x86_64         ;
+; Fitter                    ; gauravg          ; Ubuntu 18.04 ; 18         ; x86_64         ;
+; Assembler                 ; gauravg          ; Ubuntu 18.04 ; 18         ; x86_64         ;
+; TimeQuest Timing Analyzer ; gauravg          ; Ubuntu 18.04 ; 18         ; x86_64         ;
+; EDA Netlist Writer        ; gauravg          ; Ubuntu 18.04 ; 18         ; x86_64         ;
++---------------------------+------------------+--------------+------------+----------------+
 
 
 ------------
@@ -107,6 +111,8 @@ applicable agreement for further details.
 quartus_map --read_settings_files=on --write_settings_files=off Digital_Attendance_Sheet -c Digital_Attendance_Sheet
 quartus_fit --read_settings_files=off --write_settings_files=off Digital_Attendance_Sheet -c Digital_Attendance_Sheet
 quartus_asm --read_settings_files=off --write_settings_files=off Digital_Attendance_Sheet -c Digital_Attendance_Sheet
+quartus_sta Digital_Attendance_Sheet -c Digital_Attendance_Sheet
+quartus_eda --read_settings_files=off --write_settings_files=off Digital_Attendance_Sheet -c Digital_Attendance_Sheet
 
 
 

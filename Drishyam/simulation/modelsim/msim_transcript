@@ -1,0 +1,67 @@
+# do Digital_Attendance_Sheet_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying /opt/altera/13.0sp1/modelsim_ase/linuxaloem/../modelsim.ini
+# 
+# vcom -93 -work work {/home/dell/Project Pehredaar/Drishyam/Display_On_LCD.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Display_On_LCD
+# -- Compiling architecture FUNCTIONALITY of Display_On_LCD
+# 
+vsim work.display_on_lcd
+# vsim work.display_on_lcd 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.display_on_lcd(functionality)
+add wave -position insertpoint  \
+sim:/display_on_lcd/CLK \
+sim:/display_on_lcd/RSTN \
+sim:/display_on_lcd/D \
+sim:/display_on_lcd/RS \
+sim:/display_on_lcd/RW \
+sim:/display_on_lcd/EN \
+sim:/display_on_lcd/Q \
+sim:/display_on_lcd/QPLUS
+force -freeze sim:/display_on_lcd/CLK 1 0, 0 {50 ps} -r 100
+run
+run
+run
+run
+run
+force -freeze sim:/display_on_lcd/RSTN 0 0
+run
+run
+run
+run
+force -freeze sim:/display_on_lcd/RSTN 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run 500 ns
+run 2000 ns
+run 500000 ns

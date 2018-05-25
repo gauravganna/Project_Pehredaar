@@ -1,5 +1,6 @@
 now=Attendance_$(date +"%d_%m_%Y_%I_%M_%p").txt
-path=/home/dell/Project\ Pehredar/Lets\ Keep\ A\ Count
+path=/home/dell/Project\ Pehredaar/Lets_Keep_A_Count/
+
 grep -f "$path"/entry.txt "$path"/exit.txt > tmp.txt					#Finds the common entries in both the files and store it in a tmp file.
 cp Database.txt "$now"													#Create an attendance sheet for Each day.
 cat tmp.txt | while read p 												#Read each entry and mark Present against that Roll No

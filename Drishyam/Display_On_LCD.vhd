@@ -29,11 +29,11 @@ architecture FUNCTIONALITY of Display_On_LCD is
 	-- Command to initialize the LCD display
 	constant LCD_CMD    		: ARR_TYPE4 := (X"38", X"01", X"0F", X"80", X"06");						
 	-- Stores the HEX Encoding of Roll No. (Eg. 160010002  -> X"31", X"36", X"30", X"30", X"31", X"30", X"30",X"30", X"32")
-	constant LCD_ROLLNO		: ARR_TYPE8 := (X"31", X"36", X"30", X"30", X"31", X"30", X"30",X"30",X"32");
+	constant LCD_ROLLNO		: ARR_TYPE8 := (X"31", X"36", X"30", X"30", X"31", X"30", X"30",X"31",X"30");
 	-- Command to move the cursor to the second
 	constant LCD_CMD1    	: std_logic_vector(7 downto 0) := X"C0";					
 	-- Stores the HEX Encoding of PRESENT/ABSENT.
-	constant LCD_ATTENDANCE : ARR_TYPE6 := (X"41", X"42", X"53", X"45", X"4e",X"54", X"20");
+	constant LCD_ATTENDANCE : ARR_TYPE6 := (X"50", X"52", X"45", X"53", X"45",X"4e", X"54");
 	-- Stores the Command to scroll the Display.
 	constant LCD_SCROLL     : std_logic_vector(7 downto 0) := X"1C";
 

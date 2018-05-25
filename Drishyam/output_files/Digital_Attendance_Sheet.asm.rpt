@@ -1,5 +1,5 @@
 Assembler report for Digital_Attendance_Sheet
-Wed Apr 25 22:31:48 2018
+Sun May  6 18:18:21 2018
 Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -10,7 +10,8 @@ Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Messages
+  5. Assembler Device Options: Digital_Attendance_Sheet.pof
+  6. Assembler Messages
 
 
 
@@ -33,15 +34,15 @@ applicable agreement for further details.
 
 
 
-+-----------------------------------------------------------+
-; Assembler Summary                                         ;
-+-----------------------+-----------------------------------+
-; Assembler Status      ; Failed - Wed Apr 25 22:31:48 2018 ;
-; Revision Name         ; Digital_Attendance_Sheet          ;
-; Top-level Entity Name ; Display_On_LCD                    ;
-; Family                ; MAX3000A                          ;
-; Device                ; EPM3064ALC44-10                   ;
-+-----------------------+-----------------------------------+
++---------------------------------------------------------------+
+; Assembler Summary                                             ;
++-----------------------+---------------------------------------+
+; Assembler Status      ; Successful - Sun May  6 18:18:21 2018 ;
+; Revision Name         ; Digital_Attendance_Sheet              ;
+; Top-level Entity Name ; Display_On_LCD                        ;
+; Family                ; MAX3000A                              ;
+; Device                ; EPM3064ALC44-10                       ;
++-----------------------+---------------------------------------+
 
 
 +--------------------------------------------------------------------------------------------------------+
@@ -73,11 +74,24 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+---------------------------+
-; Assembler Generated Files ;
-+---------------------------+
-; File Name                 ;
-+---------------------------+
++------------------------------+
+; Assembler Generated Files    ;
++------------------------------+
+; File Name                    ;
++------------------------------+
+; Digital_Attendance_Sheet.pof ;
++------------------------------+
+
+
++--------------------------------------------------------+
+; Assembler Device Options: Digital_Attendance_Sheet.pof ;
++----------------+---------------------------------------+
+; Option         ; Setting                               ;
++----------------+---------------------------------------+
+; Device         ; EPM3064ALC44-10                       ;
+; JTAG usercode  ; 0x00000000                            ;
+; Checksum       ; 0x000CAF9A                            ;
++----------------+---------------------------------------+
 
 
 +--------------------+
@@ -86,15 +100,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 32-bit Assembler
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Wed Apr 25 22:31:48 2018
+    Info: Processing started: Sun May  6 18:18:21 2018
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off Digital_Attendance_Sheet -c Digital_Attendance_Sheet
 Info (115030): Assembler is generating device programming files
-Error (266002): Can't save JTAG Debugging Information (.jdi) file "/home/dell/Project Pehredaar/Drishyam/output_files/Digital_Attendance_Sheet.jdi"
-Error (210006): Can't save or open file /home/dell/Project Pehredaar/Drishyam/output_files/Digital_Attendance_Sheet.pof
-Error: Quartus II 32-bit Assembler was unsuccessful. 2 errors, 0 warnings
-    Error: Peak virtual memory: 299 megabytes
-    Error: Processing ended: Wed Apr 25 22:31:48 2018
-    Error: Elapsed time: 00:00:00
-    Error: Total CPU time (on all processors): 00:00:01
+Info: Quartus II 32-bit Assembler was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 299 megabytes
+    Info: Processing ended: Sun May  6 18:18:21 2018
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:01
 
 
